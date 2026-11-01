@@ -1,0 +1,659 @@
+{
+  "published": "2026-11-01",
+  "guides": [
+    {
+      "slug": "hk-monthly-budget",
+      "eyebrow": "香港理財入門",
+      "title": "香港每月預算怎樣做？先分清生活費、儲蓄和目標資金",
+      "description": "用港元收入和實際帳單建立每月預算：整理固定支出、彈性消費、儲蓄與還債，並以適合香港生活的方式定期檢視。",
+      "lead": "預算不是限制每一杯咖啡，而是讓你知道錢去了哪裏、還有多少可以自由使用。香港住房、交通、飲食和家庭支援差異很大，所以先用自己的帳目做起點，比硬套一個百分比更實際。",
+      "sections": [
+        {
+          "heading": "第一步：用可支配收入，不要只看月薪",
+          "paragraphs": [
+            "先記下每月實際收到的收入。若薪金單列出強積金供款、稅款或其他扣項，預算日常開支時要避免把同一筆錢計算兩次。收入不固定的人，可先用較保守、較常見的月份作基線；花紅、佣金和一次性收入先不要當成每月必有。",
+            "然後把支出分成固定帳單、日常彈性開支和非每月支出。香港常見項目包括租金或按揭、管理費、水電煤、交通、膳食、保險、家人支援、學費和年度旅行。把年費除以十二，放進每月預算，較不容易在繳費月份失預算。"
+          ]
+        },
+        {
+          "heading": "50/30/20 只是起點，不是香港標準答案",
+          "paragraphs": [
+            "常見的 50/30/20 方法，把收入粗略分成需要、想要和儲蓄／還債三類。它可以幫初學者開始分類，但並不是適合每個人的規則；租金、供養責任、債務和收入水平不同，比例自然會不同。不要為了湊百分比而欠繳必要帳單，或借錢投資。",
+            "更實用的做法是先列出不可避免的支出，再決定能穩定儲下多少。發薪後自動轉一筆到儲蓄戶口，通常比月底才看剩多少容易執行。若還有高息債務，先把還款額也列入預算，避免只看投資回報而忽略利息成本。"
+          ],
+          "bullets": [
+            "固定支出：住房、交通月票、保險、貸款最低還款。",
+            "彈性支出：外食、購物、娛樂和非必要訂閱。",
+            "未來支出：稅款、醫療、維修、旅費和年度保費。",
+            "財務目標：應急儲備、還債、退休儲蓄或短期目標。"
+          ]
+        },
+        {
+          "heading": "每月用十分鐘做一次預算檢查",
+          "paragraphs": [
+            "月初先定一個可行額度，月底比較預算和實際支出。只要找出一兩項差距最大的類別，下一個月微調即可；不必為了偶爾超支推翻整份計劃。若預算長期入不敷出，先檢查固定合約、債務利息和收入穩定性，再決定是否需要削減支出或增加收入。",
+            "預算也應留有彈性。突發醫療、家人需要或工作變動都會改變現金流；因此應急儲備和日常預算要分開看。可以先閱讀<a href=\"/fire-and-travel/guides/emergency-fund-hk.html\">香港應急儲備指南</a>，再用<a href=\"/fire-and-travel/calculators/travel.html\">旅行現金流試算器</a>估算旅費會否影響日常帳單。"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "收入每月不同，預算應如何開始？",
+          "answer": "先用較保守的正常月份計算固定支出，將超出基線的收入優先分配到應急儲備、稅款或其他目標，不要把未確定的收入先花掉。"
+        },
+        {
+          "question": "一定要按 50/30/20 分配嗎？",
+          "answer": "不用。它只是分類示例，不是規定。按自己的住房成本、債務、家庭責任和目標調整，並確保必要帳單和最低還款能按時支付。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "投委會：儲蓄為未來",
+          "url": "https://www.ifec.org.hk/web/tc/moneyessentials/savings.page"
+        },
+        {
+          "title": "投委會：剛入職場計劃將來",
+          "url": "https://www.ifec.org.hk/web/tc/moneyessentials/life-stages/starting-work-and-planning.page"
+        }
+      ],
+      "related": [
+        {
+          "title": "香港應急儲備要多少？",
+          "url": "/fire-and-travel/guides/emergency-fund-hk.html"
+        },
+        {
+          "title": "FIRE 目標怎樣估算？",
+          "url": "/fire-and-travel/guides/fire-number.html"
+        }
+      ]
+    },
+    {
+      "slug": "emergency-fund-hk",
+      "eyebrow": "現金流與安全網",
+      "title": "香港應急儲備要多少？由三至六個月基本開支估起",
+      "description": "香港應急儲備怎樣計？用基本月支出、收入穩定度、家庭責任和流動性建立安全網，不把投資帳戶或信用卡額度當現金。",
+      "lead": "應急儲備不是用來追求高回報，而是在收入中斷、醫療開支或急需維修時，讓你不用被迫在不利時點賣出投資。先算出真正的基本開支，再按自己的收入和家庭責任調整目標。",
+      "sections": [
+        {
+          "heading": "先算基本開支，再決定月數",
+          "paragraphs": [
+            "投委會的理財教育資料常以三至六個月生活費作為應急儲蓄的參考。這是起點，不是保證足夠的標準答案。受薪穩定、沒有供養責任的人，和收入按項目變動、需要照顧家人或有較高醫療支出的人，所需緩衝可能不同。",
+            "計算時先列住房、食物、交通、水電、保險、必要債務還款和家人支援等不能輕易取消的支出。把娛樂、購物和一次性旅行先分開。以基本月支出乘以自選月數，便得到初步目標；收入較不穩定時，可以測試較長的情境。"
+          ]
+        },
+        {
+          "heading": "應急金要容易取用，不能只看利率",
+          "paragraphs": [
+            "這筆錢的主要工作是可用和相對穩定，而不是跑贏市場。若放在價格會大幅波動、提款受限制或你不熟悉的產品，真正需要時可能無法按預期取用。可按自己的情況比較銀行存款的流動性、費用和適用保障條款；保障範圍要以官方最新資料和個別帳戶條件為準。",
+            "信用卡額度、未批核貸款、股票或加密資產都不等於應急現金。它們可能在你最需要資金時縮減、下跌或難以出售。把應急金放在獨立、容易辨認的帳戶，也有助避免日常消費不小心把它花掉。"
+          ]
+        },
+        {
+          "heading": "使用後要補回，並定期重算",
+          "paragraphs": [
+            "應急金可以用於真正的突發需要，例如收入突然中斷、必要醫療或重要家居維修；使用後，把補回目標放回預算。若搬屋、生育、失業、轉為自由工作或家庭責任改變，基本月支出和所需緩衝也要重新計算。",
+            "建立安全網後，再把不同目標分開：短期內要用的旅費、長期退休投資和應急金，不應混成一個總額。想進一步整理收支，可先看<a href=\"/fire-and-travel/guides/hk-monthly-budget.html\">香港每月預算指南</a>；想測試退休目標，請看<a href=\"/fire-and-travel/calculators/fire.html\">FIRE 年期試算器</a>。"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "應急金一定要等於六個月支出嗎？",
+          "answer": "不一定。三至六個月是教育資料常見的起始參考，實際目標要看收入穩定度、家庭責任、保險和可削減支出的速度。"
+        },
+        {
+          "question": "應急金可以放在股票或 ETF 嗎？",
+          "answer": "應急金的重點是需要時能取用。股票或 ETF 可能在短期下跌，未必適合作為唯一的緊急現金來源。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "投委會：儲蓄為未來",
+          "url": "https://www.ifec.org.hk/web/tc/moneyessentials/savings.page"
+        },
+        {
+          "title": "投委會：建立投資組合",
+          "url": "https://www.ifec.org.hk/web/tc/managing-your-money/financial-planning/building-an-investment-portfolio.html"
+        }
+      ],
+      "related": [
+        {
+          "title": "香港每月預算怎樣做？",
+          "url": "/fire-and-travel/guides/hk-monthly-budget.html"
+        },
+        {
+          "title": "被動收入不是零工作",
+          "url": "/fire-and-travel/guides/passive-income.html"
+        }
+      ]
+    },
+    {
+      "slug": "compound-interest-hkd",
+      "eyebrow": "複利與時間",
+      "title": "複利計算香港例子：每月儲蓄如何隨時間累積",
+      "description": "用港元示例解釋複利、每月供款、通脹和費用的影響；看懂計算假設，不把試算回報當成投資承諾。",
+      "lead": "複利是把本金和已累積回報一起留在計算中。時間可以放大正回報，也會放大費用和負回報；所以「錢搵錢」不是保證，而是一個依賴假設、風險和持續時間的計算。",
+      "sections": [
+        {
+          "heading": "複利和單利有甚麼分別？",
+          "paragraphs": [
+            "單利只按原本金計算回報；複利則在每期把回報併入本金，再計算下一期。簡化公式是：期末金額 = 本金 × (1 + 每期回報率) 的期數次方。若同時每月供款，還要加上每筆供款在剩餘月份內累積的金額。",
+            "實際投資回報不會每年固定。基金或股票的價格會上落，費用、稅務、派息處理和通脹也會改變結果。計算器只回答「在指定假設下會是多少」，不回答「未來一定賺多少」。"
+          ]
+        },
+        {
+          "heading": "一個港元示例：看時間，不要只看終值",
+          "paragraphs": [
+            "假設每月底投入 HK$2,000，年化名義回報率固定為 4%，每月複利，沒有費用、稅項或通脹影響：10 年後約 HK$294,500；20 年後約 HK$733,500；30 年後約 HK$1,388,100。投入本金分別是 HK$240,000、HK$480,000 和 HK$720,000。",
+            "這只是數學示例，不是對市場回報的預測。真實回報會波動，固定 4% 不會每年自動出現；而且通脹會降低未來金額的購買力。把年化率改低、加入費用或縮短年期，結果會明顯不同。"
+          ]
+        },
+        {
+          "heading": "用複利做計劃時要同時看三件事",
+          "paragraphs": [
+            "第一是時間：較早開始可增加累積期，但不能因此忽略短期現金需要。第二是淨回報：產品費用、交易成本和稅務會減少留在帳戶內繼續增長的金額。第三是風險：較高的預期回報通常伴隨較大波動，不能只把樂觀情境當基準。",
+            "可以用低、中、高三種假設做情境分析，另外加入通脹和收入中斷情境。若目標是財務獨立，可把年度支出、資產和自選提款率帶入<a href=\"/fire-and-travel/calculators/fire.html\">FIRE 年期試算器</a>；該試算器同樣只提供估算。"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "複利是否代表投資一定會愈滾愈多？",
+          "answer": "不是。複利是計算方式，不是回報保證。若投資虧損或費用持續扣除，累積金額也可能下降或低於原先預期。"
+        },
+        {
+          "question": "每月供款一定比一次過投資賺得多嗎？",
+          "answer": "不一定。結果取決於市場走勢、投入時間、費用和風險；定期投入可能有助分散入市時點，但不保證較高回報。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "投委會：儲蓄為未來",
+          "url": "https://www.ifec.org.hk/web/tc/moneyessentials/savings.page"
+        },
+        {
+          "title": "投委會：5 個你需要認識的基本投資概念",
+          "url": "https://www.ifec.org.hk/web/tc/other-resources/hot-topics/5-investment-concepts.page"
+        }
+      ],
+      "related": [
+        {
+          "title": "FIRE 目標怎樣估算？",
+          "url": "/fire-and-travel/guides/fire-number.html"
+        },
+        {
+          "title": "投資費用清單",
+          "url": "/fire-and-travel/guides/investment-fees-hk.html"
+        }
+      ]
+    },
+    {
+      "slug": "dollar-cost-averaging",
+      "eyebrow": "定期投資策略",
+      "title": "平均成本法（月供投資）是甚麼？好處、限制與風險",
+      "description": "香港月供投資與平均成本法入門：了解固定金額定期買入的運作、行為上的幫助、交易費用，以及它不能消除的風險。",
+      "lead": "平均成本法是按固定時間、投入固定金額，不論市場價格高低都持續買入。它可以減少「要不要等低位」的決策壓力，但不會把風險變成零，也不保證回報高於一次過投資。",
+      "sections": [
+        {
+          "heading": "固定金額為甚麼會買到不同數量？",
+          "paragraphs": [
+            "每期用同一金額買入時，價格較低會買到較多單位，價格較高則買到較少。長期下來，買入成本會由多個時點共同形成，而不是集中在某一天。這種做法常見於每月儲蓄或長期供款計劃。",
+            "策略的重點是預先訂立可持續金額和時間表，而不是預測短期高低位。若供款令你無法支付基本開支、累積應急金或償還高息債務，金額便應先調整。"
+          ]
+        },
+        {
+          "heading": "平均成本法能做甚麼，不能做甚麼",
+          "paragraphs": [
+            "它可能令投資者較容易建立紀律，減少一次過投入後遇上短期下跌時的情緒壓力。若市場短期波動，分期投入亦會分散買入時點。這是行為和現金流上的安排，不是額外回報來源。",
+            "若市場長期上升，一筆可投資的現金較早投入，可能有更長時間參與升幅；若市場先跌，分期投入則可能以較低價格買入更多單位。兩種方式的結果取決於實際市場路徑、費用和風險承受能力，事前無法保證哪種一定較好。"
+          ],
+          "bullets": [
+            "不能避免市場下跌，也不能保證本金不會虧損。",
+            "不能保證平均買入成本低於一次過投入的成本。",
+            "若每次交易都收取最低佣金或平台費，小額頻密交易可能增加成本。",
+            "投資標的本身若過度集中或風險不合適，定期投入不會自動解決問題。"
+          ]
+        },
+        {
+          "heading": "開始前先檢查供款和產品成本",
+          "paragraphs": [
+            "先確認投資期、每月可負擔金額、最低交易單位、交易費用、買賣差價和是否能暫停供款。讀清楚產品文件，了解投資範圍、費用、派息和主要風險。若中途需要用錢，價格下跌時可能要以虧損出售。",
+            "可以閱讀<a href=\"/fire-and-travel/guides/investment-fees-hk.html\">香港投資費用清單</a>和<a href=\"/fire-and-travel/guides/investment-diversification.html\">分散投資指南</a>，再決定定期投入是否符合自己的現金流和目標。"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "月供投資是否一定可以降低風險？",
+          "answer": "它可以分散買入時點，但不能消除標的價格下跌、匯率、流動性或集中投資等風險，也不保證獲利。"
+        },
+        {
+          "question": "已經有一筆現金，應一次過還是分期投資？",
+          "answer": "沒有適合所有人的答案。應比較投資期限、可承受波動、現金需要和交易成本；如不確定，可先了解產品風險並尋求合資格專業意見。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "投委會：謹慎管理風險，應對波動市況",
+          "url": "https://www.ifec.org.hk/web/tc/investment/market-intermediaries/financial-market/risk-management/managing-ups-and-downs.page"
+        },
+        {
+          "title": "投委會：學習投資從何入手",
+          "url": "https://www.ifec.org.hk/web/tc/young-adults/tertiary-student/how-to-get-started-to-learn-investing.page"
+        }
+      ],
+      "related": [
+        {
+          "title": "指數基金與 ETF 有甚麼分別？",
+          "url": "/fire-and-travel/guides/index-funds-etfs.html"
+        },
+        {
+          "title": "投資費用清單",
+          "url": "/fire-and-travel/guides/investment-fees-hk.html"
+        }
+      ]
+    },
+    {
+      "slug": "index-funds-etfs",
+      "eyebrow": "基金與 ETF 入門",
+      "title": "指數基金與 ETF 有甚麼分別？香港投資者入門",
+      "description": "指數基金和 ETF 不是同一概念：了解投資策略與交易形式的分別，並比較指數、費用、追蹤差異、流動性和風險。",
+      "lead": "「指數基金」描述基金如何選擇投資；「ETF」描述基金單位如何在交易所買賣。兩者常常同時出現，但並非同義詞。先弄清產品結構，再比較費用和風險，比只看名稱或近期回報可靠。",
+      "sections": [
+        {
+          "heading": "指數基金是策略，ETF 是交易形式",
+          "paragraphs": [
+            "指數基金通常以追蹤某個市場指數為目標，按指數規則持有一籃子資產或使用其他追蹤方法。ETF 則是在交易所買賣的基金單位，價格會隨市場交易變化。常見的股票 ETF 可能追蹤指數，但也有主動管理 ETF；指數基金亦可能以非 ETF 的基金形式提供。",
+            "因此，不能單憑「ETF」或「指數」三個字判斷風險、費用或是否適合自己。要看它追蹤甚麼、投資甚麼、用甚麼方法，以及產品文件列出的限制。"
+          ]
+        },
+        {
+          "heading": "比較前先看這六項",
+          "paragraphs": [
+            "先讀產品資料概要和銷售文件，不要只看宣傳頁。下列項目能幫你比較同類產品；如果兩隻產品追蹤不同市場或策略，直接比較短期回報可能沒有意義。"
+          ],
+          "bullets": [
+            "追蹤指數和投資範圍：國家、行業、貨幣及成分集中度。",
+            "追蹤方法與偏差：實物持有、抽樣或衍生工具等安排可能有不同風險。",
+            "持續費用和交易成本：管理費只是其中一項。",
+            "流動性和買賣差價：交易價格可能與每單位資產淨值不同。",
+            "貨幣和派息政策：留意匯率、分派來源及是否再投資。",
+            "基金規模、監管地區和產品文件：確認自己理解相關權利與風險。"
+          ]
+        },
+        {
+          "heading": "ETF 方便交易，不代表沒有風險",
+          "paragraphs": [
+            "ETF 可以像股票般在交易時段買賣，但市價會受供求和市場流動性影響，未必完全等於基金資產淨值。海外資產、不同交易時間、匯率、追蹤偏差和交易成本都可能影響結果。產品獲監管機構認可，也不等於監管機構推介或保證回報。",
+            "如果你重視低成本或分散投資，仍要核對整體持倉和收費。可延伸閱讀<a href=\"/fire-and-travel/guides/investment-fees-hk.html\">投資費用清單</a>、<a href=\"/fire-and-travel/guides/investment-diversification.html\">分散投資指南</a>和<a href=\"/fire-and-travel/guides/dividend-yield-vs-total-return.html\">股息率與總回報</a>。"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "所有 ETF 都是指數基金嗎？",
+          "answer": "不是。ETF 是交易形式，可能採用被動追蹤或主動管理；要查閱產品的投資目標和策略。"
+        },
+        {
+          "question": "指數基金一定比主動基金安全嗎？",
+          "answer": "不一定。風險取決於投資的指數或資產、集中度、匯率、流動性和產品結構；投資價值仍可下跌。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "投委會：ETF 主要特點",
+          "url": "https://www.ifec.org.hk/web/tc/investment/investment-products/etf/basics/key-features.page"
+        },
+        {
+          "title": "投委會：基金收費與費用",
+          "url": "https://www.ifec.org.hk/web/tc/financial-products/investment/understanding-products/funds/basics/fees-and-charges.html"
+        }
+      ],
+      "related": [
+        {
+          "title": "平均成本法（月供投資）",
+          "url": "/fire-and-travel/guides/dollar-cost-averaging.html"
+        },
+        {
+          "title": "高股息等於高回報嗎？",
+          "url": "/fire-and-travel/guides/dividend-yield-vs-total-return.html"
+        }
+      ]
+    },
+    {
+      "slug": "investment-diversification",
+      "eyebrow": "風險與資產配置",
+      "title": "分散投資怎樣做？資產配置、風險與常見誤解",
+      "description": "用資產類別、地區、行業和持倉集中度理解分散投資；看懂它能降低甚麼風險，以及不能保證甚麼。",
+      "lead": "分散投資不是買很多個代號，而是避免財務結果過度依賴同一家公司、行業、地區或風險來源。它可以減低部分集中風險，但不能消除整個市場下跌，也不能保證賺錢。",
+      "sections": [
+        {
+          "heading": "先分清風險承受能力和風險承受意願",
+          "paragraphs": [
+            "風險承受能力是財務上能否承受損失，例如投資期、收入穩定度、債務、家庭責任和近期用錢需要；風險意願則是心理上能否接受帳面波動。兩者都要考慮。若短期內要用錢，就不應只因為年紀或某個公式而承受自己負擔不起的波動。",
+            "資產配置是按目標和風險情況，決定不同資產在整體組合中的比重。沒有一個比例適合所有人；同一個人在人生階段、收入和支出改變後，也可能需要重新檢視。"
+          ]
+        },
+        {
+          "heading": "從四個方向檢查是否過度集中",
+          "paragraphs": [
+            "檢查你持有的資產是否看似很多，實際上卻依賴同一種市場因素。基金名稱不同，不代表底層持倉完全不同；同一家公司或行業也可能同時出現在多隻基金內。"
+          ],
+          "bullets": [
+            "資產類別：股票、債券、現金或其他資產的比例。",
+            "地區和貨幣：是否只依賴單一國家或單一貨幣。",
+            "行業和發行人：單一企業、科技業或房地產曝險是否過高。",
+            "流動性和用途：短期要用的錢，是否被放進難以出售或波動較大的資產。"
+          ]
+        },
+        {
+          "heading": "分散投資的限制和檢視方法",
+          "paragraphs": [
+            "不同資產在壓力市況下可能同時下跌，過去的相關性也不保證未來相同。分散可以降低某些單一持倉或行業事件帶來的影響，但仍有市場、利率、通脹、匯率和流動性風險。",
+            "可以先寫下每項資產的用途、比重和可能損失，再在收入、家庭責任或投資目標有重大變化時檢視。不要為追逐最近表現而頻繁轉換；費用和稅務也會影響淨結果。更多入門內容見<a href=\"/fire-and-travel/guides/index-funds-etfs.html\">指數基金與 ETF 指南</a>及<a href=\"/fire-and-travel/guides/mpf-fund-fees.html\">強積金基金比較指南</a>。"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "持有多隻基金就一定分散了嗎？",
+          "answer": "不一定。不同基金可能持有相同公司、集中在同一行業或受相同市場因素影響；要看底層持倉和曝險。"
+        },
+        {
+          "question": "分散投資可以避免虧損嗎？",
+          "answer": "不能。它可降低部分集中風險，但所有投資仍可能下跌，也不保證回報。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "投委會：建立投資組合",
+          "url": "https://www.ifec.org.hk/web/tc/managing-your-money/financial-planning/building-an-investment-portfolio.html"
+        },
+        {
+          "title": "投委會：投資風險",
+          "url": "https://www.ifec.org.hk/web/tc/investment/market-intermediaries/financial-market/risk-management/investment-risk.page"
+        }
+      ],
+      "related": [
+        {
+          "title": "指數基金與 ETF 有甚麼分別？",
+          "url": "/fire-and-travel/guides/index-funds-etfs.html"
+        },
+        {
+          "title": "強積金基金怎樣比較？",
+          "url": "/fire-and-travel/guides/mpf-fund-fees.html"
+        }
+      ]
+    },
+    {
+      "slug": "investment-fees-hk",
+      "eyebrow": "費用與淨回報",
+      "title": "香港投資費用清單：管理費、佣金、買賣差價與其他成本",
+      "description": "香港投資前先看總成本：基金持續費用、經紀佣金、平台費、買賣差價、貨幣兌換和其他費用如何影響淨回報。",
+      "lead": "投資產品的費用不一定會以一張帳單出現。有些在買入時扣，有些每日從資產中扣，有些藏在買賣差價或貨幣兌換中。比較產品時要看總成本，而不是只看一個管理費百分比。",
+      "sections": [
+        {
+          "heading": "把費用分成一次性、交易時和持續費用",
+          "paragraphs": [
+            "一次性費用可能包括認購、申請或退出費；每次買賣可能涉及經紀佣金、交易徵費、平台最低收費和買賣差價；持有期間則可能有基金管理、受託人、保管、行政或其他營運費用。不同產品和中介人的收費項目並不相同。",
+            "若投資海外資產，還要留意貨幣兌換費和匯率差；若使用定期供款，檢查每次交易的最低收費是否會令小額供款比例過高。不要只按廣告標示的「零佣金」判斷整體成本。"
+          ]
+        },
+        {
+          "heading": "費用會降低留在投資內的金額",
+          "paragraphs": [
+            "持續費用通常會從基金資產或帳戶中扣除，投資者未必會逐筆看到付款，但可供未來增長的金額會減少。交易愈頻密，交易成本也可能愈高。長期投資時，小幅年度費用差異經多年累積，可能造成明顯影響；實際差距取決於投資回報、費用結構和持有時間。"
+          ],
+          "bullets": [
+            "閱讀產品資料概要、基金便覽和銷售文件的費用部分。",
+            "查看平台或經紀的完整收費表，包括最低收費和保管費。",
+            "比較買入與賣出價格，不要忽略買賣差價。",
+            "把所有費用換算成同一期間和同一投資金額，再比較。"
+          ]
+        },
+        {
+          "heading": "用淨回報比較，而不是只追求最低費用",
+          "paragraphs": [
+            "費用重要，但不是唯一因素。風險、投資範圍、追蹤表現、流動性、服務和產品結構也要一起看。費用低不代表沒有風險或一定較適合；費用高也不代表能帶來較高回報。",
+            "每次作決定前，先確認自己理解費用由誰收取、何時扣除、是否會隨資產或交易額改變，以及退出時還有沒有成本。比較基金可參考<a href=\"/fire-and-travel/guides/index-funds-etfs.html\">指數基金與 ETF 指南</a>；強積金則可看<a href=\"/fire-and-travel/guides/mpf-fund-fees.html\">強積金基金比較指南</a>。"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "基金管理費就是全部費用嗎？",
+          "answer": "通常不是。還可能有受託人、保管、行政、交易、申購／贖回、經紀佣金、平台費和買賣差價等項目，須以產品和中介人的文件為準。"
+        },
+        {
+          "question": "零佣金平台代表買賣沒有成本嗎？",
+          "answer": "不一定。仍要檢查差價、平台或保管費、貨幣兌換和其他可能收費。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "投委會：基金收費與費用",
+          "url": "https://www.ifec.org.hk/web/tc/financial-products/investment/understanding-products/funds/basics/fees-and-charges.html"
+        },
+        {
+          "title": "投委會：ETF 主要特點",
+          "url": "https://www.ifec.org.hk/web/tc/investment/investment-products/etf/basics/key-features.page"
+        }
+      ],
+      "related": [
+        {
+          "title": "指數基金與 ETF 有甚麼分別？",
+          "url": "/fire-and-travel/guides/index-funds-etfs.html"
+        },
+        {
+          "title": "平均成本法（月供投資）",
+          "url": "/fire-and-travel/guides/dollar-cost-averaging.html"
+        }
+      ]
+    },
+    {
+      "slug": "dividend-yield-vs-total-return",
+      "eyebrow": "股息與回報",
+      "title": "高股息等於高回報嗎？股息率與總回報的分別",
+      "description": "用簡單例子分清股息率、派息和總回報，了解股價下跌、派息變動、再投資和費用對投資結果的影響。",
+      "lead": "看到高股息率，不代表投資一定賺得多。股息是回報的一部分，股價也會變；若只看派息金額，可能忽略本金下跌、派息削減、費用和貨幣風險。",
+      "sections": [
+        {
+          "heading": "股息率是比率，不是保證收益",
+          "paragraphs": [
+            "股息率通常以每股年度股息除以目前股價估算。若公司股價大跌，即使派息沒有改變，計算出的股息率也會上升；但股價下跌可能反映業務、負債或市場預期改變。公司可以調整或停止派息，基金也可能按其政策改變分派。",
+            "因此，高股息率值得進一步查原因，而不是直接當成「每年可穩定收取的回報」。看派息紀錄時，也要查清楚派息來自收入、資本，還是其他分配安排，並閱讀產品文件。"
+          ]
+        },
+        {
+          "heading": "總回報同時看價格變化和現金分派",
+          "paragraphs": [
+            "簡化來說，總回報包括投資價格變化和期間內收到的股息或利息；若比較長期表現，還要說明是否把分派再投資，並扣除費用和適用稅項。只比較股息率，容易漏掉本金升跌和成本。",
+            "ETF 的派息不等於額外免費收入。除息日附近，基金或股票價格通常會反映已派出資產的變化；基金的分派政策和金額也可能不同。比較產品時，應用相同期間、相同貨幣和相同總回報口徑。"
+          ]
+        },
+        {
+          "heading": "看到高息時的五個檢查問題",
+          "paragraphs": [],
+          "bullets": [
+            "股息率上升是因派息增加，還是股價下跌？",
+            "派息是否來自可持續的盈利或現金流？",
+            "派息政策是否容許從基金資本作分派？",
+            "扣除管理費、交易費和稅項後，淨回報如何？",
+            "投資是否過度集中於少數行業、公司或貨幣？"
+          ],
+          "note": "股息、利息及基金分派都可能變動，過去派息不保證未來收入。"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "股息率越高，投資越值得買嗎？",
+          "answer": "不能只靠股息率判斷。它可能因價格下跌而升高，還要看財務狀況、分派來源、風險、費用和整體總回報。"
+        },
+        {
+          "question": "基金派息是否代表基金賺了同樣金額？",
+          "answer": "不一定。要看基金文件所列的分派來源和政策；分派金額也不等於投資者的總回報。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "投委會：ETF 主要特點與股息權益",
+          "url": "https://www.ifec.org.hk/web/tc/investment/investment-products/etf/basics/key-features.page"
+        },
+        {
+          "title": "投委會：基金銷售文件及費用",
+          "url": "https://www.ifec.org.hk/web/tc/investment/investment-products/funds/basics/offering-documents.page"
+        }
+      ],
+      "related": [
+        {
+          "title": "被動收入不是零工作",
+          "url": "/fire-and-travel/guides/passive-income.html"
+        },
+        {
+          "title": "投資費用清單",
+          "url": "/fire-and-travel/guides/investment-fees-hk.html"
+        }
+      ]
+    },
+    {
+      "slug": "mpf-fund-fees",
+      "eyebrow": "香港退休與強積金",
+      "title": "強積金基金怎樣比較？看基金類型、風險指標與收費",
+      "description": "香港強積金選基金入門：按退休年期和風險承受能力，理解基金類型、風險指標、投資地區、費用及官方比較工具。",
+      "lead": "強積金是長期退休安排，選基金時不應只看最近一年誰升得多。先了解自己計劃提供哪些基金，再比較資產配置、風險指標、收費和投資期限，並以積金局的最新資料核對。",
+      "sections": [
+        {
+          "heading": "先看投資目標和距離退休的時間",
+          "paragraphs": [
+            "股票基金、債券基金、混合資產基金、保守基金和預設投資策略基金，持有資產和波動特點不同。一般而言，較高股票比重可能帶來較大價格波動；較保守的組合則仍要考慮通脹和長壽等風險。沒有一個基金類型適合所有成員。",
+            "投資年期只是因素之一。收入穩定度、其他儲蓄、家庭責任、能否承受帳戶下跌，以及退休後的收入需要，都會影響個人選擇。不要單憑年齡公式決定基金比例。"
+          ]
+        },
+        {
+          "heading": "比較基金時別只看近期回報",
+          "paragraphs": [
+            "積金局的 MPF Fund Platform 提供基金表現、費用及風險等資料，方便按同一口徑比較。查看時可先確認基金的投資目標和地區，再看風險級別、基金開支比率／費用表、長期表現期間和基金規模。若比較的基金策略不同，單看回報名次可能會得出錯誤結論。"
+          ],
+          "bullets": [
+            "基金投資甚麼資產、行業和地區？",
+            "風險指標是否與自己的承受能力相符？",
+            "持續費用和其他收費怎樣扣除？",
+            "比較的是同一期間和同一類型嗎？",
+            "預設投資策略是否符合自己的需要，及何時會調整資產配置？"
+          ]
+        },
+        {
+          "heading": "每次轉換前先讀計劃文件",
+          "paragraphs": [
+            "基金資訊和收費可更新，應以受託人、積金局和最新基金便覽為準。過往表現不代表未來結果；頻密追逐短期升幅也可能令組合偏離原本目標，並增加轉換或交易成本。",
+            "可到<a href=\"https://mfp.mpfa.org.hk/eng/\" target=\"_blank\" rel=\"noopener noreferrer\">積金局 MPF Fund Platform</a>查看最新基金資料，並閱讀<a href=\"/fire-and-travel/guides/investment-fees-hk.html\">投資費用指南</a>。如不明白個別計劃條款，應向受託人或合資格專業人士查詢。"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "強積金基金過去表現最好，就應該選它嗎？",
+          "answer": "不應只看單一期間的回報。還要比較投資策略、風險、費用和自身投資年期；過去表現不保證未來結果。"
+        },
+        {
+          "question": "預設投資策略是否一定適合所有人？",
+          "answer": "不一定。了解其資產配置、風險調整方式和適用條件，再按個人情況決定是否符合需要。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "積金局：強積金投資常見問題",
+          "url": "https://www.mpfa.org.hk/info-centre/faq/mpf-investment/mpf-investment"
+        },
+        {
+          "title": "投委會：揀選強積金基金 5 個步驟",
+          "url": "https://www.ifec.org.hk/web/tc/young-adults/youth-investment/5-steps-mpf-funds.page"
+        },
+        {
+          "title": "積金局 MPF Fund Platform",
+          "url": "https://mfp.mpfa.org.hk/eng/"
+        }
+      ],
+      "related": [
+        {
+          "title": "分散投資怎樣做？",
+          "url": "/fire-and-travel/guides/investment-diversification.html"
+        },
+        {
+          "title": "香港投資費用清單",
+          "url": "/fire-and-travel/guides/investment-fees-hk.html"
+        }
+      ]
+    },
+    {
+      "slug": "investment-scam-checklist-hk",
+      "eyebrow": "投資者保障",
+      "title": "香港投資騙案怎樣辨認？保證回報、假平台與查證步驟",
+      "description": "整理香港投資騙案常見紅旗：保證高回報、WhatsApp 群組、假冒持牌機構和私人帳戶收款；附證監會查證入口。",
+      "lead": "任何投資都可能有風險。「保證高回報、低風險、短期翻倍」是需要停下來核實的警號，而不是急着匯款的理由。以下列出可操作的查證步驟，讓你先獨立確認平台、人士和產品。",
+      "sections": [
+        {
+          "heading": "常見紅旗：催促、保證和不尋常收款",
+          "paragraphs": [
+            "騙案可能透過社交平台、即時訊息、電話、名人假廣告或看似專業的交易 App 接觸投資者。有人會先在群組展示獲利截圖，再要求下載指定平台、加碼入金或支付「解凍費」。截圖和群組推薦都不能證明交易或公司真實。"
+          ],
+          "bullets": [
+            "聲稱回報有保證、幾乎零風險，或催促限時入場。",
+            "要求把錢轉到個人銀行帳戶、陌生公司或數碼錢包。",
+            "要求保密、借貸投資，或以解凍、稅款、手續費為由再付款。",
+            "網站、電話或社交帳號只與合法機構名稱相似，網址卻不同。",
+            "只提供截圖、牌照圖片或自稱監管機構背書，拒絕讓你自行查證。"
+          ]
+        },
+        {
+          "heading": "從官方網站獨立查證，不要點訊息中的連結",
+          "paragraphs": [
+            "自行輸入證監會官方網站地址，查閱投資者警示和持牌人公眾紀錄冊；核對公司名稱、網址、電話、持牌活動和聯絡方式是否完全一致。若產品聲稱獲認可，也要在官方產品名單或銷售文件中查證。牌照只代表監管登記範圍，不代表產品獲推薦、保本或一定適合你。",
+            "如對方稱自己是銀行、證券行、監管機構或名人，請使用其官方網站列出的電話自行聯絡，不要用對方訊息中的電話回撥。可再用香港警務處的 Scameter 或官方反詐資訊作額外檢查。"
+          ]
+        },
+        {
+          "heading": "已經轉帳或交出資料，盡快行動",
+          "paragraphs": [
+            "立即聯絡銀行或支付服務商，說明可能涉及騙案並詢問可採取的措施；保留對話、電話、網址、收據和交易紀錄，並透過警方和監管機構的官方渠道求助。不要再支付所謂「追回服務」的預付款，也不要把身份證、密碼或一次性驗證碼交給陌生人。",
+            "相關投資警示會更新，查看<a href=\"https://www.sfc.hk/en/alert_list\" target=\"_blank\" rel=\"noopener noreferrer\">證監會投資者警示</a>和<a href=\"https://www.sfc.hk/en/Regulatory-functions/Intermediaries/Licensing/Register-of-licensed-persons-and-registered-institutions/Public-register-of-licensed-persons-and-registered-institutions\" target=\"_blank\" rel=\"noopener noreferrer\">持牌人公眾紀錄冊</a>的最新資料。"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "有證監會牌照是否代表投資不會虧損？",
+          "answer": "不是。牌照或產品認可不等於保本、保證回報或監管機構推介，仍要看產品性質和風險。"
+        },
+        {
+          "question": "只要有朋友在群組賺到錢，就可以相信平台嗎？",
+          "answer": "不可以。群組截圖和推薦可被偽造；應自行從監管機構官方網站核實平台、人士和產品。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "證監會：股票交易平台騙案警示",
+          "url": "https://www.sfc.hk/en/Warning---Stock-trading-platform-scams"
+        },
+        {
+          "title": "證監會：投資者警示",
+          "url": "https://www.sfc.hk/en/alert_list"
+        },
+        {
+          "title": "證監會：持牌人及註冊機構公眾紀錄冊",
+          "url": "https://www.sfc.hk/en/Regulatory-functions/Intermediaries/Licensing/Register-of-licensed-persons-and-registered-institutions/Public-register-of-licensed-persons-and-registered-institutions"
+        }
+      ],
+      "related": [
+        {
+          "title": "被動收入不是零工作",
+          "url": "/fire-and-travel/guides/passive-income.html"
+        },
+        {
+          "title": "投資費用清單",
+          "url": "/fire-and-travel/guides/investment-fees-hk.html"
+        }
+      ]
+    }
+  ]
+}
