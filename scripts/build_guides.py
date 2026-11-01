@@ -95,20 +95,7 @@ def render_cards():
         '<section class="section-block" id="evergreen-guides"><div class="section-head">'
         '<div><p class="eyebrow">常青理財指南</p><h2>香港理財與投資：10 篇常青指南</h2></div>'
         '<p>從日常預算到投資風險，逐步建立自己的判斷框架。</p></div>'
-        '<div class="feature-grid reading-paths">'
-        '<article class="feature-card"><p class="eyebrow">新手路線 · 由基礎開始</p><h3>先穩住現金流，再認識投資</h3>'
-        '<p>先建立收支、安全網和時間價值的概念，再決定要不要投資。</p>'
-        f'<p><a href="{BASE_PATH}guides/hk-monthly-budget.html">1. 每月預算</a><br>'
-        f'<a href="{BASE_PATH}guides/emergency-fund-hk.html">2. 應急儲備</a><br>'
-        f'<a href="{BASE_PATH}guides/compound-interest-hkd.html">3. 複利</a></p></article>'
-        '<article class="feature-card"><p class="eyebrow">進階路線 · 比較產品與風險</p><h3>檢查費用、配置和回報</h3>'
-        '<p>已有投資經驗？先比較風險來源與總成本，不只看單一回報數字。</p>'
-        f'<p><a href="{BASE_PATH}guides/index-funds-etfs.html">1. 指數基金與 ETF</a><br>'
-        f'<a href="{BASE_PATH}guides/investment-fees-hk.html">2. 投資費用</a><br>'
-        f'<a href="{BASE_PATH}guides/investment-diversification.html">3. 分散投資</a><br>'
-        f'<a href="{BASE_PATH}guides/dividend-yield-vs-total-return.html">4. 股息與總回報</a></p></article>'
-        '</div>'
-        f'<div class="card-grid">{"".join(cards)}</div></section>'
+                f'<div class="card-grid">{"".join(cards)}</div></section>'
     )
 
 
