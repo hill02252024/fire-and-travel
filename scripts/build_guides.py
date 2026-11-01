@@ -79,7 +79,7 @@ def render_guide(guide):
         for item in guide.get("related", [])
     )
     return f'''<!doctype html>
-<html lang="zh-HK"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{escape(guide["title"])}｜財與遠方</title><meta name="description" content="{escape(guide["description"], quote=True)}"><link rel="canonical" href="{escape(canonical, quote=True)}"><meta property="og:type" content="article"><meta property="og:title" content="{escape(guide["title"], quote=True)}｜財與遠方"><meta property="og:description" content="{escape(guide["description"], quote=True)}"><meta property="og:url" content="{escape(canonical, quote=True)}">{adsense}<link rel="stylesheet" href="{BASE_PATH}assets/site.css"><script type="application/ld+json">{json_ld(guide, canonical)}</script></head><body><header class="site-header"><a class="brand" href="{BASE_PATH}"><span class="brand-mark">財</span><span>財與遠方</span></a><nav aria-label="主要導覽"><a href="{BASE_PATH}calculators/fire.html">FIRE 試算</a><a href="{BASE_PATH}calculators/travel.html">旅行預算</a><a href="{BASE_PATH}guides/" aria-current="page">實用指南</a><a href="{BASE_PATH}news/">每週新聞</a></nav></header><main class="article"><p class="breadcrumb"><a href="{BASE_PATH}">首頁</a>　/　<a href="{BASE_PATH}guides/">實用指南</a>　/　{escape(guide["title"])}</p><p class="eyebrow">{escape(guide["eyebrow"])} · 更新於 {published}</p><h1>{escape(guide["title"])}</h1><p class="lead">{escape(guide["lead"])}</p><p class="fine-print">以下為一般教育資訊和情境示例，不是個人化投資或稅務建議。數字和規則會因產品、個人情況及法規而異，請以最新官方資料和產品文件為準。</p>{sections}<section><h2>常見問題</h2>{faqs}</section><section><h2>參考資料</h2><p>以下官方教育與監管資料供讀者進一步核對；引用不代表機構推薦任何投資產品。</p><ul>{sources}</ul></section><section class="callout"><h2>繼續規劃</h2><p>{related}</p><p><a href="{BASE_PATH}guides/">返回全部理財與投資指南 →</a></p></section></main><footer class="site-footer"><div><a class="brand" href="{BASE_PATH}"><span class="brand-mark">財</span><span>財與遠方</span></a><p>用數字規劃自由，用預算留住遠方。</p></div><nav aria-label="頁尾導覽"><a href="{BASE_PATH}about.html">關於本站</a><a href="{BASE_PATH}disclaimer.html">免責聲明</a><a href="{BASE_PATH}privacy.html">私隱政策</a><a href="{BASE_PATH}news/">每週新聞</a></nav><small>© 2026 財與遠方</small></footer></body></html>'''
+<html lang="zh-HK"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{escape(guide["title"])}｜財與遠方</title><meta name="description" content="{escape(guide["description"], quote=True)}"><link rel="canonical" href="{escape(canonical, quote=True)}"><meta property="og:type" content="article"><meta property="og:title" content="{escape(guide["title"], quote=True)}｜財與遠方"><meta property="og:description" content="{escape(guide["description"], quote=True)}"><meta property="og:url" content="{escape(canonical, quote=True)}">{adsense}<link rel="stylesheet" href="{BASE_PATH}assets/site.css"><script type="application/ld+json">{json_ld(guide, canonical)}</script></head><body><header class="site-header"><a class="brand" href="{BASE_PATH}"><span class="brand-mark">財</span><span>財與遠方</span></a><nav aria-label="主要導覽"><a href="{BASE_PATH}calculators/fire.html">財務自由試算</a><a href="{BASE_PATH}calculators/travel.html">旅行預算</a><a href="{BASE_PATH}guides/" aria-current="page">實用指南</a><a href="{BASE_PATH}news/">每週新聞</a></nav></header><main class="article"><p class="breadcrumb"><a href="{BASE_PATH}">首頁</a>　/　<a href="{BASE_PATH}guides/">實用指南</a>　/　{escape(guide["title"])}</p><p class="eyebrow">{escape(guide["eyebrow"])} · 更新於 {published}</p><h1>{escape(guide["title"])}</h1><p class="lead">{escape(guide["lead"])}</p><p class="fine-print">以下為一般教育資訊和情境示例，不是個人化投資或稅務建議。數字和規則會因產品、個人情況及法規而異，請以最新官方資料和產品文件為準。</p>{sections}<section><h2>常見問題</h2>{faqs}</section><section><h2>參考資料</h2><p>以下官方教育與監管資料供讀者進一步核對；引用不代表機構推薦任何投資產品。</p><ul>{sources}</ul></section><section class="callout"><h2>繼續規劃</h2><p>{related}</p><p><a href="{BASE_PATH}guides/">返回全部理財與投資指南 →</a></p></section></main><footer class="site-footer"><div><a class="brand" href="{BASE_PATH}"><span class="brand-mark">財</span><span>財與遠方</span></a><p>用數字規劃自由，用預算留住遠方。</p></div><nav aria-label="頁尾導覽"><a href="{BASE_PATH}about.html">關於本站</a><a href="{BASE_PATH}disclaimer.html">免責聲明</a><a href="{BASE_PATH}privacy.html">私隱政策</a><a href="{BASE_PATH}news/">每週新聞</a></nav><small>© 2026 財與遠方</small></footer></body></html>'''
 
 
 def render_cards():
@@ -93,8 +93,21 @@ def render_cards():
         )
     return (
         '<section class="section-block" id="evergreen-guides"><div class="section-head">'
-        '<div><p class="eyebrow">EVERGREEN MONEY GUIDES</p><h2>香港理財與投資：10 篇常青指南</h2></div>'
+        '<div><p class="eyebrow">常青理財指南</p><h2>香港理財與投資：10 篇常青指南</h2></div>'
         '<p>從日常預算到投資風險，逐步建立自己的判斷框架。</p></div>'
+        '<div class="feature-grid reading-paths">'
+        '<article class="feature-card"><p class="eyebrow">新手路線 · 由基礎開始</p><h3>先穩住現金流，再認識投資</h3>'
+        '<p>先建立收支、安全網和時間價值的概念，再決定要不要投資。</p>'
+        f'<p><a href="{BASE_PATH}guides/hk-monthly-budget.html">1. 每月預算</a><br>'
+        f'<a href="{BASE_PATH}guides/emergency-fund-hk.html">2. 應急儲備</a><br>'
+        f'<a href="{BASE_PATH}guides/compound-interest-hkd.html">3. 複利</a></p></article>'
+        '<article class="feature-card"><p class="eyebrow">進階路線 · 比較產品與風險</p><h3>檢查費用、配置和回報</h3>'
+        '<p>已有投資經驗？先比較風險來源與總成本，不只看單一回報數字。</p>'
+        f'<p><a href="{BASE_PATH}guides/index-funds-etfs.html">1. 指數基金與 ETF</a><br>'
+        f'<a href="{BASE_PATH}guides/investment-fees-hk.html">2. 投資費用</a><br>'
+        f'<a href="{BASE_PATH}guides/investment-diversification.html">3. 分散投資</a><br>'
+        f'<a href="{BASE_PATH}guides/dividend-yield-vs-total-return.html">4. 股息與總回報</a></p></article>'
+        '</div>'
         f'<div class="card-grid">{"".join(cards)}</div></section>'
     )
 

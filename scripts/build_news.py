@@ -22,6 +22,14 @@ def safe_url(value):
 
 def last_modified(relative_path):
     try:
+        pending = subprocess.check_output(
+            ["git", "status", "--porcelain", "--untracked-files=all", "--", relative_path],
+            cwd=ROOT,
+            text=True,
+            stderr=subprocess.DEVNULL,
+        ).strip()
+        if pending:
+            return date.today().isoformat()
         value = subprocess.check_output(
             ["git", "log", "-1", "--format=%cs", "--", relative_path],
             cwd=ROOT,
@@ -46,7 +54,7 @@ def page_head(title, description, canonical, page_type="website", article_json=N
 
 def site_header(active="news"):
     links = [
-        ("FIRE 試算", "calculators/fire.html", "fire"),
+        ("財務自由試算", "calculators/fire.html", "fire"),
         ("旅行預算", "calculators/travel.html", "travel"),
         ("實用指南", "guides/", "guides"),
         ("每週新聞", "news/", "news"),
@@ -82,7 +90,7 @@ def build_news_article(entry):
         "datePublished": article_date.isoformat(),
         "dateModified": article_date.isoformat(),
         "inLanguage": "zh-HK",
-        "author": {"@type": "Organization", "name": f"{BRAND}編輯部"},
+        "author": {"@type": "Organization", "name": f"{BRAND}自動新聞摘要"},
         "publisher": {"@type": "Organization", "name": BRAND},
         "mainEntityOfPage": canonical,
     }
@@ -95,7 +103,7 @@ def build_news_article(entry):
             f'''<section class="news-card"><p class="eyebrow">消息 {number} · 原文發布：{escape(item["published"])}</p><h2>{escape(item["headline"])}</h2><p><strong>發生了甚麼：</strong>{escape(item["what"])}</p><p><strong>為甚麼值得留意：</strong>{escape(item["why"])}</p><p>來源：<a href="{escape(source_url, quote=True)}" target="_blank" rel="noopener noreferrer">{escape(item["source"])}</a></p></section>'''
         )
     body = "".join(cards)
-    return f'''{page_head(title, description, canonical, "article", schema)}<body>{site_header()}<main class="article-page"><p class="breadcrumb"><a href="{BASE_PATH}">首頁</a>　/　<a href="{BASE_PATH}news/">每週新聞</a>　/　{article_date.isoformat()}</p><p class="eyebrow">WEEKLY BRIEF · 編輯整理：{article_date.isoformat()}</p><h1>{escape(entry["title"])}</h1><p class="lead">{escape(entry.get("summary", "本週財務、退休和旅行消息摘要。"))}</p>{body}<div class="article-callout">本文只作新聞導讀，不是個人化投資、稅務或旅遊建議。消息可能更新，請以原始來源為準；本站不提供買入或賣出指示。</div></main>{site_footer()}</body></html>'''
+    return f'''{page_head(title, description, canonical, "article", schema)}<body>{site_header()}<main class="article-page"><p class="breadcrumb"><a href="{BASE_PATH}">首頁</a>　/　<a href="{BASE_PATH}news/">每週新聞</a>　/　{article_date.isoformat()}</p><p class="eyebrow">每週焦點 · 自動整理：{article_date.isoformat()}</p><h1>{escape(entry["title"])}</h1><p class="lead">{escape(entry.get("summary", "本週財務、退休和旅行消息摘要。"))}</p>{body}<div class="article-callout">本文只作新聞導讀，不是個人化投資、稅務或旅遊建議。消息可能更新，請以原始來源為準；本站不提供買入或賣出指示。</div></main>{site_footer()}</body></html>'''
 
 
 def validate_entry(entry):
@@ -164,7 +172,7 @@ def main():
     title = "財務與旅行每週新聞摘要｜財與遠方"
     description = "每週整理香港及全球與個人理財、退休規劃和旅行相關的重要消息，附發布日期和原始來源連結。"
     canonical = BASE_URL + "/news/"
-    page = f'''{page_head(title, description, canonical)}<body>{site_header()}<main><section class="page-heading"><p class="breadcrumb"><a href="{BASE_PATH}">首頁</a>　/　每週新聞</p><p class="eyebrow">WEEKLY BRIEF · 每星期六</p><h1>財務與旅行每週新聞</h1><p class="lead">摘要香港及全球與個人理財、退休和旅行相關的重要消息。每篇標示發布日期、原文來源和編輯整理；新聞不等於投資建議。</p></section><section class="content-panel"><h2>發布原則</h2><ul><li>優先引用監管機構、政府、交易所或原始發布者。</li><li>只摘要可核對的消息，附原文連結和日期，不複製大段內容。</li><li>每週最多三則；沒有可靠、值得整理的新消息時就略過。</li><li>不根據短期新聞預測價格，不提供買入或賣出指示。</li></ul></section><section class="article-list" id="news-list">{cards}</section><div class="article-callout">新聞整理只作資訊導讀。請閱讀原始公告，並自行核對金融產品、稅務和旅行規定。</div></main>{site_footer()}</body></html>'''
+    page = f'''{page_head(title, description, canonical)}<body>{site_header()}<main><section class="page-heading"><p class="breadcrumb"><a href="{BASE_PATH}">首頁</a>　/　每週新聞</p><p class="eyebrow">每星期六 · 香港理財與旅行新聞</p><h1>財務與旅行每週新聞</h1><p class="lead">摘要香港及全球與個人理財、退休和旅行相關的重要消息。每篇標示發布日期、原文來源和自動整理；新聞不等於投資建議。</p></section><section class="content-panel"><h2>發布原則</h2><ul><li>優先引用監管機構、政府、交易所或原始發布者。</li><li>只摘要可核對的消息，附原文連結和日期，不複製大段內容。</li><li>每週最多三則；沒有可靠、值得整理的新消息時就略過。</li><li>不根據短期新聞預測價格，不提供買入或賣出指示。</li></ul></section><section class="article-list" id="news-list">{cards}</section><div class="article-callout">新聞整理只作資訊導讀。請閱讀原始公告，並自行核對金融產品、稅務和旅行規定。</div></main>{site_footer()}</body></html>'''
     (ROOT / "news" / "index.html").write_text(page + "\n", encoding="utf-8")
     build_sitemap()
     print(f"Generated {len(entries)} weekly briefs and sitemap.")
