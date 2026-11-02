@@ -125,6 +125,9 @@ def validate_entry(entry):
 
 
 def build_sitemap():
+    if not CONFIG.get("indexable", True):
+        (ROOT / "sitemap.xml").unlink(missing_ok=True)
+        return
     files = sorted(
         p for p in ROOT.rglob("*.html")
         if ".git" not in p.parts and p.name != "404.html"
