@@ -30,6 +30,6 @@ node --test scripts/calculators.test.mjs
 
 ## 暫時預覽與正式網域
 
-暫時公開預覽於 `https://todays-tasks.com/fire-and-travel/`，內容由本 repository 同步至既有 GitHub Pages 根站的獨立子目錄；不改首頁、其他路徑或 CNAME。暫時副本所有頁面均標記 `noindex,follow`，不進入根站 sitemap，避免未來換網域前把理財內容併入既有網站搜尋索引。
+暫時公開預覽於 `https://todays-tasks.com/fire-and-travel/`，內容由本 repository 同步至既有 GitHub Pages 根站的獨立子目錄；不改首頁、其他路徑或 CNAME。暫時副本所有頁面均標記 `noindex,follow`，不載入 AdSense，也不進入根站 sitemap，避免未來換網域前把理財內容併入既有網站搜尋索引。
 
 Canonical 目標及 GitHub Pages 專案路徑仍由 `data/site.json` 管理。取得新網域後，更新 `baseUrl`、`basePath` 與 `indexable`，重新生成頁面，再停止同步至 `hill02252024.github.io` 根站。

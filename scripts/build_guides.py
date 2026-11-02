@@ -59,7 +59,7 @@ def render_section(section):
 def render_guide(guide):
     canonical = f'{BASE_URL}/guides/{guide["slug"]}.html'
     published = DATA["published"]
-    publisher_id = SITE.get("adsensePublisher", "")
+    publisher_id = SITE.get("adsensePublisher", "") if SITE.get("adsEnabled", False) else ""
     adsense = (
         f'<meta name="google-adsense-account" content="{escape(publisher_id, quote=True)}">'
         f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={escape(publisher_id, quote=True)}" crossorigin="anonymous"></script>'

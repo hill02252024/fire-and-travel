@@ -22,6 +22,8 @@ def published_sources():
 def main():
     if SITE.get("indexable", True):
         raise SystemExit("Refusing to mirror indexable content to the temporary subdirectory.")
+    if SITE.get("adsEnabled", False):
+        raise SystemExit("Refusing to mirror the temporary subdirectory with AdSense enabled.")
     if SITE.get("baseUrl", "").rstrip("/") != "https://todays-tasks.com/fire-and-travel":
         raise SystemExit("Temporary mirror is only allowed at todays-tasks.com/fire-and-travel.")
     if len(sys.argv) != 2:
@@ -45,6 +47,8 @@ def main():
         text = page.read_text(encoding="utf-8")
         if '<meta name="robots" content="noindex,follow">' not in text and '<meta name="robots" content="noindex">' not in text:
             raise SystemExit(f"Refusing to publish an indexable page: {page.relative_to(SOURCE)}")
+        if "adsbygoogle.js" in text:
+            raise SystemExit(f"Refusing to publish AdSense code before the new domain is ready: {page.relative_to(SOURCE)}")
 
     for relative in sorted(current):
         target = destination / relative

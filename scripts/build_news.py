@@ -11,7 +11,7 @@ CONFIG = json.loads((ROOT / "data/site.json").read_text(encoding="utf-8"))
 BASE_URL = CONFIG["baseUrl"].rstrip("/")
 BASE_PATH = CONFIG["basePath"].rstrip("/") + "/"
 BRAND = CONFIG["name"]
-PUB = CONFIG["adsensePublisher"]
+PUB = CONFIG.get("adsensePublisher", "") if CONFIG.get("adsEnabled", False) else ""
 NEWS_FILE = ROOT / "data/news.json"
 
 
@@ -48,8 +48,12 @@ def page_head(title, description, canonical, page_type="website", article_json=N
     schema = ""
     if article_json:
         schema = '<script type="application/ld+json">' + json.dumps(article_json, ensure_ascii=False, separators=(",", ":")) + "</script>"
+    adsense = (
+        f'<meta name="google-adsense-account" content="{PUB}"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={PUB}" crossorigin="anonymous"></script>'
+        if PUB else ""
+    )
     return f'''<!doctype html>
-<html lang="zh-HK"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{escape(title)}</title><meta name="description" content="{escape(description)}"><link rel="canonical" href="{escape(canonical)}">{social}<meta name="google-adsense-account" content="{PUB}"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={PUB}" crossorigin="anonymous"></script>{schema}<link rel="stylesheet" href="{BASE_PATH}assets/site.css"></head>'''
+<html lang="zh-HK"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{escape(title)}</title><meta name="description" content="{escape(description)}"><link rel="canonical" href="{escape(canonical)}">{social}{adsense}{schema}<link rel="stylesheet" href="{BASE_PATH}assets/site.css"></head>'''
 
 
 def site_header(active="news"):
