@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "/fire-and-travel/"
-BASE_URL = "https://todays-tasks.com/fire-and-travel"
+BASE_URL = "https://hill02252024.github.io/fire-and-travel"
 
 
 class PageParser(HTMLParser):

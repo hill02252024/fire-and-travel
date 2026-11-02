@@ -29,4 +29,4 @@ GitHub Pages 直接從 `main` 分支根目錄發布，不需要 GitHub Actions �
 
 ## 發布網址
 
-GitHub 帳戶的根 Pages 網站已綁定 `todays-tasks.com`。因此這個專案網站會以子路徑發布：`https://todays-tasks.com/fire-and-travel/`。如日後要用獨立網域，需另行設定 DNS 和 Pages 網域，不要移除現有根網站的網域設定。
+預定的 GitHub Pages 專案網址是 `https://hill02252024.github.io/fire-and-travel/`。目前帳戶的根 Pages 另有既有網域設定，會將此專案的預設 `github.io` 網址轉址到根站，因此暫不發布此 Pages 網站。保留 `fire-and-travel` repository；待站長提供新網域後，再為本專案設定 DNS 與 Pages 網域，不修改根 Pages 或其他網站。
