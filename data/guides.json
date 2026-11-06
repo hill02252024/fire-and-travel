@@ -654,6 +654,109 @@
           "url": "/fire-and-travel/guides/investment-fees-hk.html"
         }
       ]
+    },
+    {
+      "slug": "payday-compass",
+      "published": "2026-11-06",
+      "eyebrow": "美國薪金現金流",
+      "title": "美國打工仔出糧後怎樣預算？Payday Compass App 介紹",
+      "description": "介紹 Payday Compass 如何把美國打工仔的現金、下次出糧前帳單、儲蓄目標與安全緩衝，整理成可花金額和每日支出速度。",
+      "lead": "月薪或每兩週出糧的總額，不等於下次出糧前可以放心花掉的金額。Payday Compass 是一款為美國出糧人士設計的現金流預算 App：先扣除近期帳單、計劃儲蓄和自己設定的緩衝，再估算到下一個出糧日前的可用額。",
+      "sections": [
+        {
+          "heading": "出糧日之間的現金流，比月結餘更實用",
+          "paragraphs": [
+            "每月預算可以告訴你收入和支出大約多少，但不一定回答「今天買完日用品，下一張薪金單前還有多少空間」。如果租金、車貸或信用卡帳單集中在出糧前到期，帳戶當下的餘額容易令人以為全部都能自由使用。",
+            "美國消費者金融保護局（CFPB）的預算指引建議整理帳單及到期日，並追蹤支出。Payday Compass 把這個日常問題放到出糧週期來看，讓使用者把可花金額和即將到期的責任分開。"
+          ]
+        },
+        {
+          "heading": "Payday Leftover：把「可花」與「帳面有錢」分開",
+          "paragraphs": [
+            "App 會以使用者自行追蹤的現金金額為起點，扣除自己保留的安全緩衝、下一次出糧前到期的帳單，以及已計劃的每次出糧儲蓄額，得出 Payday Leftover。這個數字是預算估算，不是銀行即時餘額，也不會替你付款或轉帳。"
+          ],
+          "bullets": [
+            "你追蹤的現金",
+            "減去：自己設定的保留緩衝",
+            "減去：下次出糧前到期的帳單",
+            "減去：預先計劃的儲蓄目標供款",
+            "結果：作為出糧日前支出參考的估算餘額"
+          ]
+        },
+        {
+          "heading": "每日支出速度與圖表：消費前先看趨勢",
+          "paragraphs": [
+            "Payday Compass 比較最近七日的平均支出速度與距離下次出糧仍可使用的每日額度。使用者也可以查看今天、本週和本月的支出總額、與上一個相近期間的變化、每日平均、主要類別、類別比例及每日長條圖。圖表的目的，是讓人更快發現花費加速或某個類別佔比上升，而不是鼓勵追求投資回報。",
+            "對每週或每兩週出糧的人，日常打開時可以先看「距離下次出糧還有幾天」及花費速度，再決定本週外食、交通或購物是否需要調整。預算數字仍要按實際生活和帳單更新。"
+          ]
+        },
+        {
+          "heading": "記錄方式：手動輸入、銀行 CSV 與收據",
+          "paragraphs": [
+            "App 沒有銀行登入或自動銀行同步。使用者可手動記錄支出，或匯入常見美國銀行交易 CSV；類別建議可以自行修改，重複的日期、商戶和金額會被標示。CSV 交易記錄用於歷史和支出速度，不會自動改動追蹤現金餘額。",
+            "拍攝或選取收據後，裝置上的文字辨識可建議商戶和總額，儲存前仍需自行檢查和修改。收據圖片不會由 App 上傳或保留。"
+          ]
+        },
+        {
+          "heading": "適合誰？香港讀者要先看清楚地區限制",
+          "paragraphs": [
+            "這款 App 面向有固定出糧週期、希望把帳單和日常消費放進同一個現金流計劃的美國打工仔。它不會代替銀行 App、報稅工具、債務顧問或投資平台，也不會保證避免透支或累積儲蓄。",
+            "Payday Compass 目前按美國使用情境設計；香港讀者不應假設它已支援港元、強積金或香港銀行連接。公開的 Google Play 商店頁目前尚未推出，請以正式上架頁面的地區、版本及功能說明為準。"
+          ]
+        },
+        {
+          "heading": "私隱、備份與廣告",
+          "paragraphs": [
+            "計劃、帳單、支出、目標和打卡紀錄存放在使用者裝置上；沒有開發者營運的帳戶或雲端備份。需要換機時，使用者要自行匯出備份並保存到裝置外，再於新安裝的 App 還原。App 內有 Google 廣告 SDK 和同意流程，因此廣告相關資料處理仍應閱讀<a href=\"https://todays-tasks.com/payday-compass-privacy.html\">Payday Compass 私隱政策</a>。"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Payday Compass 會自動連結美國銀行嗎？",
+          "answer": "不會。App 沒有銀行登入或自動同步；可自行輸入支出或匯入 CSV，並檢查和修改類別建議。"
+        },
+        {
+          "question": "Payday Leftover 是銀行即時餘額嗎？",
+          "answer": "不是。它是以你在 App 追蹤的現金、帳單、目標供款和保留緩衝計算的預算估算。"
+        },
+        {
+          "question": "App 會自動轉錢到儲蓄目標嗎？",
+          "answer": "不會。它會在預算中預留計劃供款；實際轉帳仍由使用者在自己的金融機構完成。"
+        },
+        {
+          "question": "香港打工仔可以直接用嗎？",
+          "answer": "App 目前以美國出糧情境為主，不能假設已支援港元、強積金或香港銀行服務。"
+        },
+        {
+          "question": "現在可以在 Google Play 下載嗎？",
+          "answer": "目前沒有公開的 Google Play 商店頁；公開上架後才會提供商店連結。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "美國消費者金融保護局（CFPB）：Budgeting — How to create a budget and stick with it",
+          "url": "https://www.consumerfinance.gov/archive/blog/budgeting-how-to-create-a-budget-and-stick-with-it"
+        },
+        {
+          "title": "Payday Compass 私隱政策",
+          "url": "https://todays-tasks.com/payday-compass-privacy.html"
+        }
+      ],
+      "related": [
+        {
+          "title": "Payday Compass 英文產品介紹",
+          "url": "https://todays-tasks.com/apps/payday-compass/"
+        },
+        {
+          "title": "香港每月預算怎樣做？",
+          "url": "/fire-and-travel/guides/hk-monthly-budget.html"
+        },
+        {
+          "title": "FIRE 年期試算器",
+          "url": "/fire-and-travel/calculators/fire.html"
+        }
+      ]
     }
   ]
 }

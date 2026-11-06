@@ -30,13 +30,14 @@ def inline_html(value):
 
 
 def json_ld(guide, canonical):
+    published = guide.get("published", DATA["published"])
     return json.dumps({
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": guide["title"],
         "description": guide["description"],
-        "datePublished": DATA["published"],
-        "dateModified": DATA["published"],
+        "datePublished": published,
+        "dateModified": published,
         "inLanguage": "zh-HK",
         "author": {"@type": "Organization", "name": "財與遠方編輯部"},
         "publisher": {"@type": "Organization", "name": SITE["name"]},
@@ -58,7 +59,7 @@ def render_section(section):
 
 def render_guide(guide):
     canonical = f'{BASE_URL}/guides/{guide["slug"]}.html'
-    published = DATA["published"]
+    published = guide.get("published", DATA["published"])
     publisher_id = SITE.get("adsensePublisher", "") if SITE.get("adsEnabled", False) else ""
     adsense = (
         f'<meta name="google-adsense-account" content="{escape(publisher_id, quote=True)}">'
@@ -93,7 +94,7 @@ def render_cards():
         )
     return (
         '<section class="section-block" id="evergreen-guides"><div class="section-head">'
-        '<div><p class="eyebrow">常青理財指南</p><h2>香港理財與投資：10 篇常青指南</h2></div>'
+        f'<div><p class="eyebrow">常青理財指南</p><h2>香港理財與投資：{len(DATA["guides"])} 篇常青指南</h2></div>'
         '<p>從日常預算到投資風險，逐步建立自己的判斷框架。</p></div>'
                 f'<div class="card-grid">{"".join(cards)}</div></section>'
     )

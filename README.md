@@ -6,7 +6,7 @@
 
 - `/calculators/fire.html`：FIRE 年期情境試算器
 - `/calculators/travel.html`：長途旅行現金流試算器
-- `/guides/`：FIRE、被動收入、香港預算、應急金、複利、平均成本法、ETF、分散投資、投資費用、股息、強積金與投資防騙指南；文章來源資料在 `data/guides.json`
+- `/guides/`：FIRE、被動收入、香港預算、應急金、複利、平均成本法、ETF、分散投資、投資費用、股息、強積金與投資防騙指南、美國 Payday Compass 出糧預算 App；文章來源資料在 `data/guides.json`
 - `/news/`：每週新聞摘要；來源、原文連結和日期隨文章列出
 
 計算器只在瀏覽器運算。所有投資數字都由使用者輸入，不預設或承諾投資回報。本站只提供一般教育資訊，不提供個人化投資建議。
