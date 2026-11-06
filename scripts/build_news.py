@@ -117,8 +117,8 @@ def validate_entry(entry):
     if not entry.get("title") or not entry.get("summary"):
         raise ValueError("每週摘要必須有 title 和 summary")
     items = entry.get("items")
-    if not isinstance(items, list) or not 1 <= len(items) <= 3:
-        raise ValueError("每週摘要必須有 1 至 3 則消息")
+    if not isinstance(items, list) or not 1 <= len(items) <= 5:
+        raise ValueError("每週摘要必須有 1 至 5 則消息；沒有值得整理的消息時不要建立該期")
     for item in items:
         for field in ("headline", "source", "url", "published", "what", "why"):
             if not item.get(field):
@@ -179,7 +179,7 @@ def main():
     title = "財務與旅行每週新聞摘要｜財與遠方"
     description = "每週整理香港及全球與個人理財、退休規劃和旅行相關的重要消息，附發布日期和原始來源連結。"
     canonical = BASE_URL + "/news/"
-    page = f'''{page_head(title, description, canonical)}<body>{site_header()}<main><section class="page-heading"><p class="breadcrumb"><a href="{BASE_PATH}">首頁</a>　/　每週新聞</p><p class="eyebrow">每星期六 · 香港理財與旅行新聞</p><h1>財務與旅行每週新聞</h1><p class="lead">摘要香港及全球與個人理財、退休和旅行相關的重要消息。每篇標示發布日期、原文來源和自動整理；新聞不等於投資建議。</p></section><section class="content-panel"><h2>發布原則</h2><ul><li>優先引用監管機構、政府、交易所或原始發布者。</li><li>只摘要可核對的消息，附原文連結和日期，不複製大段內容。</li><li>每週最多三則；沒有可靠、值得整理的新消息時就略過。</li><li>不根據短期新聞預測價格，不提供買入或賣出指示。</li></ul></section><section class="article-list" id="news-list">{cards}</section><div class="article-callout">新聞整理只作資訊導讀。請閱讀原始公告，並自行核對金融產品、稅務和旅行規定。</div></main>{site_footer()}</body></html>'''
+    page = f'''{page_head(title, description, canonical)}<body>{site_header()}<main><section class="page-heading"><p class="breadcrumb"><a href="{BASE_PATH}">首頁</a>　/　每週新聞</p><p class="eyebrow">每星期六 · 香港理財與旅行新聞</p><h1>財務與旅行每週新聞</h1><p class="lead">摘要香港及全球與個人理財、退休和旅行相關的重要消息。每篇標示發布日期、原文來源和自動整理；新聞不等於投資建議。</p></section><section class="content-panel"><h2>發布原則</h2><ul><li>優先引用監管機構、政府、交易所或原始發布者。</li><li>只摘要可核對的消息，附原文連結和日期，不複製大段內容。</li><li>每週最多五則；沒有可靠、值得整理的新消息時就略過該期。</li><li>不根據短期新聞預測價格，不提供買入或賣出指示。</li></ul></section><section class="article-list" id="news-list">{cards}</section><div class="article-callout">新聞整理只作資訊導讀。請閱讀原始公告，並自行核對金融產品、稅務和旅行規定。</div></main>{site_footer()}</body></html>'''
     (ROOT / "news" / "index.html").write_text(page + "\n", encoding="utf-8")
     build_sitemap()
     print(f"Generated {len(entries)} weekly briefs and sitemap.")
