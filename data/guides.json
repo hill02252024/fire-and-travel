@@ -757,6 +757,82 @@
           "url": "/fire-and-travel/calculators/fire.html"
         }
       ]
+    },
+    {
+      "slug": "payday-compass-asia",
+      "published": "2026-11-06",
+      "eyebrow": "亞洲打工仔出糧規劃",
+      "title": "亞洲打工仔可以用 Payday Compass 嗎？出糧預算的用法與限制",
+      "description": "從香港、台灣、新加坡等地打工仔角度，了解 Payday Compass 的出糧預算方法，以及目前美元、英文介面和美國銀行 CSV 的限制。",
+      "lead": "不論在香港、台灣、新加坡或其他亞洲地區，打工仔都會想知道：下一次出糧前，扣除租金、交通、日常帳單和儲蓄後，還有多少錢可以安排？Payday Compass 的現金流預算概念值得參考，但現行 App 尚未支援亞洲本地貨幣與銀行服務。",
+      "sections": [
+        {
+          "heading": "亞洲打工仔也會遇到出糧週期的現金流問題",
+          "paragraphs": [
+            "月薪、每兩週出糧或按週領薪的人，都可能在帳戶看見一筆餘額，卻忘記租金、交通月票、電話費、信用卡還款、家庭支援或其他帳單即將到期。把「帳面餘額」和「下一次出糧前真正可安排的錢」分開，是跨地區都用得上的預算思路。",
+            "例如一位在香港工作的受薪人士，可以先按發薪日列出下一次發薪前到期的固定帳單，再預留應急緩衝和已計劃的儲蓄，最後觀察這段期間的每日支出速度。這套整理方法不等於某款 App 已支援香港，也不能代替銀行帳戶的實際結餘。"
+          ]
+        },
+        {
+          "heading": "Payday Compass 的功能概念如何對應日常生活？",
+          "paragraphs": [
+            "Payday Compass 以使用者自行記錄的現金為起點，預留安全緩衝、下次出糧前到期的帳單和每次出糧計劃儲蓄，再估算 Payday Leftover。它也會整理近期支出速度和支出圖表，幫助使用者留意外食、交通或購物開支是否比平常快。",
+            "對亞洲打工仔來說，最有參考價值的是「按下一個發薪日規劃」而不是單看月底總額。實際使用時仍要核對發薪日期和帳單，因為 App 不會登入銀行、讀取即時餘額、替使用者付款或自動轉帳。"
+          ]
+        },
+        {
+          "heading": "重要限制：現行版本不是亞洲本地化 App",
+          "paragraphs": [
+            "目前 Payday Compass 的介面為英文，金額固定以美元（$）顯示；銀行 CSV 匯入按常見美國格式設計。它沒有香港、台灣或新加坡銀行連接，也沒有港元、台幣、新加坡元、強積金或本地稅務功能。",
+            "因此，不建議把港元、台幣或其他本地金額直接輸入後，將畫面上的美元數字當成本地預算結果；貨幣標示不符容易造成誤解。亞洲讀者可以參考出糧週期預算方法，但現行 App 並非為本地貨幣日常記帳而設。本文只介紹現有功能和限制，沒有修改 App 或新增亞洲支援。"
+          ]
+        },
+        {
+          "heading": "亞洲讀者現在可以怎樣使用這個概念？",
+          "paragraphs": [
+            "如果想在自己的地區實行，可以用當地貨幣記錄到手收入、下一次發薪日前到期帳單、儲蓄安排和日常支出，再按自己的發薪週期檢查剩餘現金。香港讀者可配合<a href=\"/fire-and-travel/guides/hk-monthly-budget.html\">香港每月預算指南</a>和<a href=\"/fire-and-travel/guides/emergency-fund-hk.html\">香港應急儲備指南</a>；其他地區則應採用符合當地貨幣和銀行格式的工具。",
+            "若將來要把 Payday Compass 正式推向亞洲市場，至少需要本地貨幣和語言設定、相應地區的 CSV 格式支援，以及清楚說明當地資料與私隱安排；在這些支援完成前，不應把它宣傳成已適用於亞洲所有用戶。"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "亞洲打工仔可以直接用 Payday Compass 嗎？",
+          "answer": "預算概念可以參考，但現行 App 只以英文和美元顯示，並以美國使用情境為主；不適合把港元、台幣或其他本地金額直接當成本地貨幣預算。"
+        },
+        {
+          "question": "Payday Compass 可以連接香港或其他亞洲銀行嗎？",
+          "answer": "不可以。App 沒有銀行登入或自動同步；目前只可手動記錄，或匯入常見美國銀行 CSV 格式。"
+        },
+        {
+          "question": "這篇文章會替 App 加入亞洲貨幣或語言嗎？",
+          "answer": "不會。這篇文章只介紹目前已有的預算概念和地區限制，沒有修改 App。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "美國消費者金融保護局（CFPB）：Budgeting — How to create a budget and stick with it",
+          "url": "https://www.consumerfinance.gov/archive/blog/budgeting-how-to-create-a-budget-and-stick-with-it"
+        },
+        {
+          "title": "Payday Compass 英文產品介紹",
+          "url": "https://todays-tasks.com/apps/payday-compass/"
+        }
+      ],
+      "related": [
+        {
+          "title": "香港每月預算怎樣做？",
+          "url": "/fire-and-travel/guides/hk-monthly-budget.html"
+        },
+        {
+          "title": "香港應急儲備要多少？",
+          "url": "/fire-and-travel/guides/emergency-fund-hk.html"
+        },
+        {
+          "title": "美國打工仔出糧後怎樣預算？",
+          "url": "/fire-and-travel/guides/payday-compass.html"
+        }
+      ]
     }
   ]
 }
