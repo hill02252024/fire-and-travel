@@ -22,14 +22,14 @@ python3 -m unittest scripts/test_calculators.py
 node --test scripts/calculators.test.mjs
 ```
 
-原始碼保存在 `hill02252024/fire-and-travel`；暫時公開副本由 Zo 的週六排程同步至 `hill02252024/hill02252024.github.io` repository 的 `fire-and-travel/` 子目錄。排程更新 `data/news.json`、重建頁面、套用暫時 `noindex`、執行檢查和測試，再只更新根站的子目錄，不碰首頁、其他頁面或 CNAME。沒有足夠可靠新聞時跳過發布。
+正式網站由 `hill02252024/fire-and-travel` 的 `main` 分支提供，目標網域為 `https://fireandjourney.com/`。GitHub Pages 已設定網站自訂網域；GoDaddy DNS 仍待完成。Zo 的週六排程會更新此 repository、重建網站並測試後推送至 `main`。沒有足夠可靠新聞時跳過發布。排程不得更改 CNAME、網域或 GoDaddy DNS。
 
 ## 週更守則
 
 每次最多整理五則本週重要消息，以繁體中文香港用語摘要，標清發布日期和原始來源；沒有足夠可靠且值得整理的消息時，略過該週，不建立空白新聞頁。優先監管機構、政府、央行、交易所及新聞機構的一手報道；不得把來源未證實的傳聞寫成事實，不得給出個人化買賣建議，不得複製大段原文。提交前須執行網站檢查並只提交與本週摘要相關的檔案。
 
-## 暫時預覽與正式網域
+## 網域與預覽
 
-暫時公開預覽於 `https://todays-tasks.com/fire-and-travel/`，內容由本 repository 同步至既有 GitHub Pages 根站的獨立子目錄；不改首頁、其他路徑或 CNAME。暫時副本所有頁面均標記 `noindex,follow`，不載入 AdSense，也不進入根站 sitemap，避免未來換網域前把理財內容併入既有網站搜尋索引。
+正式網站網域為 `https://fireandjourney.com/`；GitHub Pages 專案根目錄已用此網域作為 canonical，頁面可索引，並提供 `robots.txt` 和 `sitemap.xml`。GoDaddy DNS 尚待更新與傳播，Search Console 的網域驗證和 sitemap 提交也待 DNS 完成。
 
-Canonical 目標及 GitHub Pages 專案路徑仍由 `data/site.json` 管理。取得新網域後，更新 `baseUrl`、`basePath` 與 `indexable`，重新生成頁面，再停止同步至 `hill02252024.github.io` 根站。
+既有預覽 `https://todays-tasks.com/fire-and-travel/` 保留為 noindex 副本，不進入 Today’s Tasks 根站 sitemap；此副本不再是理財網站的正式 SEO 網址。網域與索引設定由 `data/site.json` 管理。
