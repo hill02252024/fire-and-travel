@@ -60,7 +60,7 @@ def site_header(active="news"):
     links = [
         ("財務自由試算", "calculators/fire.html", "fire"),
         ("旅行預算", "calculators/travel.html", "travel"),
-        ("實用指南", "guides/", "guides"),
+        ("實用指南", "guides/", "guides"),        ("券商介紹", "brokers/", "brokers"),
         ("每週新聞", "news/", "news"),
     ]
     nav = "".join(

@@ -1,0 +1,177 @@
+{
+  "updated": "2026-11-12",
+  "brokers": [
+    {
+      "slug": "ibkr-hong-kong",
+      "name": "IBKR／盈透證券",
+      "title": "IBKR 香港介紹：背景、SFC 牌照、佣金與優缺點",
+      "description": "整理 IBKR 香港法團背景、SFC 牌照、GlobalTrader 常見股票佣金、官方監管紀錄與適用限制。",
+      "lead": "IBKR 的特色是跨市場交易工具和多種帳戶費率。香港投資者要先確認開戶合約所列法團、使用的平台和費率計劃，不要把海外公司的保護制度直接套用在香港帳戶。",
+      "entity": "Interactive Brokers Hong Kong Limited（盈透證券香港有限公司）",
+      "license": "CE No. ADI249；官方客戶協議列明第 1、2、3 類受規管活動。",
+      "background": [
+        "Interactive Brokers Group 的公司歷史資料記載其業務始於 1977 年，集團在 Nasdaq 上市（股票代號 IBKR），提供多市場經紀服務。香港客戶應以自己開戶時的客戶協議確認實際服務法團和帳戶安排。",
+        "香港法團為 Interactive Brokers Hong Kong Limited。不同國家、產品和帳戶平台可能由不同法團提供服務；品牌屬同一集團不代表所有客戶資產都受同一地區制度保障。"
+      ],
+      "regulatory": [
+        "香港法團的官方客戶協議列有 SFC CE No. ADI249。持牌只代表可在核准範圍內從事受規管活動，不是證監會推薦，也不保證公司永不出錯、資產不會下跌或投資能獲利。請用法團名稱和 CE 編號在 SFC 公眾紀錄冊重新核對。",
+        "重要監管紀錄：證監會於 2025 年 4 月 28 日譴責 IBHK 並罰款 HK$420 萬。證監會指出，2017 至 2020 年間，公司因程式錯誤依賴 7,911 名客戶已屆滿的常設授權借出港股；證監會同時記錄公司已補救、自行匯報、事件非蓄意，且沒有證據顯示客戶因此蒙受損失。這是應了解的歷史監管事項，不等同對現時帳戶作安全保證。",
+        "香港投資者賠償基金只在法定條件下賠償合資格產品因中介人違責造成的損失；不賠一般市價波動，也不是銀行存款保障。美股或其他海外市場的具體託管與保障安排，應看你的帳戶法團和產品文件。"
+      ],
+      "fees": [
+        "IBKR GlobalTrader 官方新客戶費表例子：港股佣金為成交額 0.08%，最低 HK$18；美股為每股 US$0.005，最低每單 US$1。這只代表該平台所列的新客戶價格，不適用於所有 IBKR 帳戶或所有費率計劃。",
+        "該費表列明不收帳戶最低結餘或平台費；外匯兌換、提款、交易所／監管徵費及其他產品費用仍可能適用。港股另有印花稅、交易所及監管費等。"
+      ],
+      "advantages": [
+        "適合需要接觸多個國際市場、管理多種貨幣或使用較完整交易工具的人；實際可交易市場和產品按帳戶資格而定。",
+        "提供多款交易介面，從較簡化的 GlobalTrader 到較進階平台；可先用模擬帳戶熟習操作。",
+        "官方費表清楚列出不同市場及費率選項，方便按交易方式核算成本。"
+      ],
+      "limitations": [
+        "帳戶、費率和市場規則選項多，初學者容易混淆；開戶前要確認是固定或階梯費率、執行平台和訂單類型。",
+        "跨境投資涉及匯兌、海外稅務文件、股息預扣稅和不同市場結算規則；低佣金不等於總成本為零。",
+        "2025 年客戶證券授權事件提醒投資者仍要閱讀常設授權和證券借貸條款，並留意帳戶通知。"
+      ],
+      "officialUrl": "https://www.interactivebrokers.com.hk/en/home.php",
+      "ctaLabel": "查看 IBKR 官方網站（本站邀請連結待補）",
+      "referralUrl": "",
+      "sources": [
+        {"title": "SFC 持牌人公眾紀錄冊", "url": "https://apps.sfc.hk/publicregWeb/searchByBa"},
+        {"title": "IBKR GlobalTrader 香港費率（新客戶費表）", "url": "https://www.interactivebrokers.com/mkt/impgt_red.php?uri=globaltrader.interactivebrokers.com.hk%2Fen%2Fpricing.php"},
+        {"title": "IBKR 香港交易所第三方費用", "url": "https://www.interactivebrokers.com/en/accounts/fees/SEHK-StkFees.php"},
+        {"title": "Interactive Brokers Group 公司歷史", "url": "https://www.interactivebrokers.com/en/general/about/info-and-history.php"},
+        {"title": "IBKR 香港法團客戶協議（CE No. ADI249）", "url": "https://ndcdyn.interactivebrokers.com/Universal/servlet/Registration_v2.formSampleView?formdb=4144&lang=en"},
+        {"title": "證監會：IBHK 違反客戶資產規定遭譴責及罰款（2025-04-28）", "url": "https://apps.sfc.hk/edistributionWeb/api/news/list-content?refNo=25PR57&lang=TC"},
+        {"title": "香港投資者賠償基金：適用範圍與限額", "url": "https://www.hkicc.org.hk/investor/fund_limit_c1_e.htm"}
+      ]
+    },
+    {
+      "slug": "tiger-brokers-hong-kong",
+      "name": "老虎證券",
+      "title": "老虎證券香港介紹：背景、SFC 牌照、佣金與優缺點",
+      "description": "以官方資料整理老虎證券香港法團、SFC 牌照、港美股收費、交易工具和應注意的監管與費率條款。",
+      "lead": "老虎證券的 Tiger Trade 平台提供多市場交易工具。開戶前要分清楚免佣優惠、平台費和第三方徵費，並核對邀請活動的資格與有效期。",
+      "entity": "Tiger Brokers (HK) Global Limited（老虎證券（香港）環球有限公司）",
+      "license": "CE No. BMU940；官方資料列有第 1、2、4、5、9 類受規管活動。",
+      "background": [
+        "老虎證券由 Tiger Brokers 品牌提供，母公司 UP Fintech Holding Limited 在 Nasdaq 上市（股票代號 TIGR）。香港證券交易服務由 Tiger Brokers (HK) Global Limited 提供，平台名稱為 Tiger Trade。",
+        "品牌提供多市場股票、ETF、期權及其他產品服務；不同產品可能有不同交易、託管和風險條款。本文只整理香港投資者較常查看的股票費用和核對方式。"
+      ],
+      "regulatory": [
+        "公司官方費率頁列明香港法團 CE No. BMU940。請在 SFC 公眾紀錄冊核對法團全名、牌照狀態和受規管活動；持牌不代表 SFC 認可投資回報或保證券商不會出錯。",
+        "監管背景提醒：證監會 2026 年 10 月 13 日的新聞稿，在涉及涉嫌操縱 IPO 的調查中，列出老虎證券（香港）環球有限公司為 29 家須限制特定客戶帳戶相關資產處理的經紀行之一。證監會說明相關調查對象是涉嫌集團，經紀行本身並非調查對象，限制針對指定帳戶，不影響其他客戶。請閱讀原文，不要把這項特定帳戶措施誤解為對所有客戶帳戶或整家公司安全性的判決。",
+        "香港投資者賠償基金只在法定條件下涵蓋合資格產品因中介人違責造成的損失；不賠股價下跌或其他市場損失，也不等於海外證券全面受保。開戶前要看清客戶協議中的持有法團和產品安排。"
+      ],
+      "fees": [
+        "港股及 ETF：官方頁目前展示部分合資格人士可享限時 HK$0 佣金；標準佣金為成交額 0.029%，平台費固定計劃 HK$15／單。平台費亦有按每月成交單數計算的階梯計劃，實際資格和價目以官方費表為準。",
+        "美股及 ETF：官方費表列佣金每股 US$0.0049、最低每單 US$0.99；平台費每股 US$0.005、最低每單 US$1。另有交易所、監管、結算、股息及公司行動等費用。"
+      ],
+      "advantages": [
+        "提供港股、美股和多種交易產品，手機平台集中報價、下單和持倉管理。",
+        "官方展示圖表、研究和期權策略等工具，對希望在同一 App 查看多市場資訊的人較方便。",
+        "同時有固定和按成交量計算的平台費方案；交易量與頻率不同時，可以比較哪個方案成本較低。"
+      ],
+      "limitations": [
+        "「港股免佣」是有資格和期限條件的活動時，平台費及政府、交易所、監管徵費仍可能收取；不要只看 0 佣金標題。",
+        "小額交易受最低每單佣金和平台費影響，買賣頻繁時累計成本可能高於預期。",
+        "期權、孖展、IPO 和借貸產品風險高於現金買入股票，應先理解強制平倉和利息規則。"
+      ],
+      "officialUrl": "https://www.tigerbrokers.com.hk/",
+      "ctaLabel": "查看老虎證券邀請頁",
+      "referralUrl": "https://hk.tigershowtime.com/activity2/market/2026/new-invitee?adcode=AC1753252955948ABTaVt&uuid=4203044030503032&inviterNewMemberVersion=1&inviterMemberLevel=1&utm_source=invite&utm_campaign=AC1753252955948ABTaVt&utm_medium=copy&platform=iOS&shareID=e74abe13e055d087a772772e1cf375ba&invite=EF8E8X&lang=zh_TW#/",
+      "sources": [
+        {"title": "SFC 持牌人公眾紀錄冊", "url": "https://apps.sfc.hk/publicregWeb/searchByBa"},
+        {"title": "老虎證券香港官方佣金及費用表", "url": "https://www.tigerbrokers.com.hk/commissions"},
+        {"title": "老虎證券香港官方網站：產品與本地交易服務", "url": "https://www.tigerbrokers.com.hk/"},
+        {"title": "證監會：涉嫌 IPO 操縱調查及特定帳戶資產限制（2026-10-13）", "url": "https://apps.sfc.hk/edistributionWeb/gateway/TC/news-and-announcements/news/enforcement-news/doc?refNo=26PR168"},
+        {"title": "香港投資者賠償基金：適用範圍與限額", "url": "https://www.hkicc.org.hk/investor/fund_limit_c1_e.htm"}
+      ]
+    },
+    {
+      "slug": "futu-hong-kong",
+      "name": "富途證券／富途牛牛",
+      "title": "富途證券香港介紹：背景、SFC 牌照、佣金與優缺點",
+      "description": "整理富途證券香港法團背景、SFC 牌照、港股與美股標準費用、平台特點和近期監管公告。",
+      "lead": "富途以富途牛牛提供港股、美股和其他市場的行情、交易及研究工具。費率需分辨佣金、平台費和優惠方案，特別是小額訂單的最低收費。",
+      "entity": "Futu Securities International (Hong Kong) Limited（富途證券國際（香港）有限公司）",
+      "license": "CE No. AZT137；官方資料列有第 1、2、3、4、5、7、9 類受規管活動。",
+      "background": [
+        "富途證券國際（香港）有限公司成立於 2012 年，母公司 Futu Holdings Limited 在 Nasdaq 上市（股票代號 FUTU）。香港零售用戶常用的平台為富途牛牛，提供行情、交易、研究和社群功能。",
+        "同一品牌下的海外子公司可能受不同地區監管，請以開戶協議列出的法律實體為準，不要把其他地區的牌照或保障套用到香港帳戶。"
+      ],
+      "regulatory": [
+        "富途官方網站列出香港法團 CE No. AZT137。請在 SFC 公眾紀錄冊以法團全名或 CE 編號核對最新牌照狀態和業務範圍；牌照不是監管機構推薦，也不保證投資本金。",
+        "監管背景提醒：證監會 2026 年 10 月 13 日的新聞稿，在涉嫌操縱 IPO 的調查中，把富途證券國際（香港）有限公司列為須限制指定客戶帳戶相關資產處理的經紀行之一。證監會表示調查對象是涉嫌集團，經紀行本身並非調查對象；通知只針對指定帳戶，不影響其他客戶。此事不應被誤讀為對全體客戶或公司作出安全性判決，但值得讀者查看原始公告。",
+        "香港投資者賠償基金僅在法定條件下涵蓋合資格產品因中介人違責造成的損失，不賠正常市價波動，也不是海外投資的全面保險。確認客戶資產存放與適用保護時，應查看你的客戶協議和產品文件。"
+      ],
+      "fees": [
+        "港股及 ETF 標準費率：佣金為成交額 0.03%，最低 HK$3／單；固定平台費 HK$15／單。官方費表註明合資格期間可能免佣，並提供其他平台費方案；活動與費率會變。",
+        "美股及 ETF 固定計劃：佣金每股 US$0.0049，最低 US$0.99／單；平台費每股 US$0.005，最低 US$1／單。結算、監管、交易活動、匯兌及其他費用可能另計。"
+      ],
+      "advantages": [
+        "手機、桌面和網頁平台整合行情、研究、下單及持倉資訊，使用者可按需要選擇裝置。",
+        "提供多市場產品和投資研究工具；對需要在同一平台查看港股、美股與其他市場的人較方便。",
+        "港股與美股費率頁列出固定及階梯方案，可按自己的每月訂單數比較，而不是只看迎新優惠。"
+      ],
+      "limitations": [
+        "每單最低佣金及平台費會放大小額訂單的成本；促銷免佣不一定免平台費、交易所費或稅項。",
+        "行情、社群和大量市場資訊不會自動提升投資回報；新手仍要辨認廣告、意見和正式披露。",
+        "孖展、期權、IPO、基金及其他產品的風險、收費和適用資格不同，不能把股票收費表當成所有產品的總成本。"
+      ],
+      "officialUrl": "https://www.futuhk.com/en",
+      "ctaLabel": "查看富途證券邀請頁",
+      "referralUrl": "https://invest.futuhk.com/invite-centre_share?lang=zh-hk&invite_code=YUJVQNTN&inviter=32175110&channel=1287&subchannel=1&global_content=%7B%22promote_content%22%3A%2230%22%2C%22promote_id%22%3A16069%2C%22promote_type%22%3A1%2C%22sub_promote_id%22%3A25%2C%22invite%22%3A32175110%7D",
+      "sources": [
+        {"title": "SFC 持牌人公眾紀錄冊", "url": "https://apps.sfc.hk/publicregWeb/searchByBa"},
+        {"title": "富途官方介紹：公司與香港服務背景", "url": "https://www.futuhk.com/en/about-us"},
+        {"title": "富途香港官方港股費率", "url": "https://www.futuhk.com/en/support/topic2_335"},
+        {"title": "富途香港官方美股費率", "url": "https://www.futuhk.com/en/support/topic2_283"},
+        {"title": "證監會：涉嫌 IPO 操縱調查及特定帳戶資產限制（2026-10-13）", "url": "https://apps.sfc.hk/edistributionWeb/gateway/TC/news-and-announcements/news/enforcement-news/doc?refNo=26PR168"},
+        {"title": "香港投資者賠償基金：適用範圍與限額", "url": "https://www.hkicc.org.hk/investor/fund_limit_c1_e.htm"}
+      ]
+    },
+    {
+      "slug": "webull-hong-kong",
+      "name": "Webull／微牛證券",
+      "title": "Webull 香港介紹：背景、SFC 牌照、佣金與優缺點",
+      "description": "以官方資料整理 Webull 香港證券法團、SFC 牌照、港美股股票費用、分析工具與免佣以外的成本。",
+      "lead": "Webull 香港主打股票圖表和交易工具，官方費率頁列出港股及美股股票的佣金與平台費安排。零佣金不等於零總成本，仍要查看其他費用和活動條款。",
+      "entity": "Webull Securities Limited（微牛證券有限公司）",
+      "license": "CE No. BNG700；官方資料列有第 1、2、4 類受規管活動。",
+      "background": [
+        "Webull Securities Limited 是香港本地證券服務法團，提供 Webull 手機及網頁交易服務；其母公司 Webull Corporation 在 Nasdaq 上市（股票代號 BULL）。",
+        "官方介紹列有港股、美股、期權等產品及圖表分析工具。各產品可交易資格、報價服務和費用不同，應查看相應產品頁和客戶協議。"
+      ],
+      "regulatory": [
+        "Webull 官方資料列明香港法團 CE No. BNG700，並稱其持有第 1、2、4 類牌照。請在 SFC 公眾紀錄冊核對最新狀態和受規管活動；SFC 持牌不等於對公司信用或投資表現作保證。",
+        "Webull 官方說明其客戶資金按其安排存放於獨立託管銀行並與公司資金分開；具體保護仍要按現行客戶協議、資金幣種、產品和開戶法團確認。香港投資者賠償基金也只在法定條件下覆蓋合資格香港交易產品因中介人違責造成的損失，不涵蓋市場損失或所有海外投資。"
+      ],
+      "fees": [
+        "Webull 香港官方股票費率頁目前列出港股及美股股票不收佣金和平台費；股票以外產品及第三方費用不一定免費。",
+        "即使股票佣金和平台費為零，交易所、監管、結算、印花稅、ADR、外匯兌換、提款、孖展利息或期權費仍可能收取；請在每次交易前看最新費表和預計費用。"
+      ],
+      "advantages": [
+        "官方列有多種圖表、報價和交易工具，適合希望在手機或網頁查看市場資訊與持倉的人。",
+        "股票費率頁列出的港股及美股股票佣金、平台費為零，可降低這兩項成本；仍須合併計算法定及第三方費用。",
+        "提供香港本地法團和本地支援渠道，方便香港使用者核對服務與聯絡方式。"
+      ],
+      "limitations": [
+        "零佣金或零平台費並不代表下單、持倉、匯兌和提款的總成本皆為零。",
+        "進階圖表和頻繁報價可能令人更常交易；交易頻率增加並不保證提高回報。",
+        "期權、孖展及其他衍生產品的損失可能超過新手預期，開通前應先閱讀風險披露。"
+      ],
+      "officialUrl": "https://www.webull.hk/en",
+      "ctaLabel": "查看 Webull 邀請頁",
+      "referralUrl": "https://www.webull.hk/ko-yield/1792120746020-4cafa9?inviteCode=b3kYZrX00x2B&source=inviteHK&hl=zh-hant",
+      "sources": [
+        {"title": "SFC 持牌人公眾紀錄冊", "url": "https://apps.sfc.hk/publicregWeb/searchByBa"},
+        {"title": "Webull 官方香港法團介紹", "url": "https://www.webull.hk/en/help/faq/1047-Introduction-of-Webull-Securities-Limited"},
+        {"title": "Webull 客戶資金託管與投資者保障說明", "url": "https://www.webull.hk/en/help/faq/603-Is-my-Webull-HK-brokerage-account-insured-and-protected"},
+        {"title": "Webull 官方費率總覽", "url": "https://www.webull.hk/en/pricing"},
+        {"title": "Webull 官方港股費率", "url": "https://www.webull.hk/en/help/faq/2098-HK-Stock-and-ETF-Fee-Schedule"},
+        {"title": "Webull 官方美股費率", "url": "https://www.webull.hk/en/help/faq/2103-U-S-Stock-and-ETF-Fee-Schedule"},
+        {"title": "香港投資者賠償基金：適用範圍與限額", "url": "https://www.hkicc.org.hk/investor/fund_limit_c1_e.htm"}
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@
 
 - `/calculators/fire.html`：FIRE 年期情境試算器
 - `/calculators/travel.html`：長途旅行現金流試算器
-- `/guides/`：FIRE、被動收入、香港預算、應急金、複利、平均成本法、ETF、分散投資、投資費用、股息、強積金與投資防騙指南、美國 Payday Compass 出糧預算 App、亞洲打工仔適用限制；文章來源資料在 `data/guides.json`
+- `/guides/`：FIRE、被動收入、香港預算、應急金、複利、平均成本法、ETF、分散投資、投資費用、股息、強積金與投資防騙指南、美國 Payday Compass 出糧預算 App、亞洲打工仔適用限制；文章來源資料在 `data/guides.json`- `/brokers/`：IBKR、老虎證券、富途及 Webull 香港法團、牌照、官方費率、風險與本站邀請連結披露；資料在 `data/brokers.json`，由 `scripts/build_brokers.py` 產生
 - `/news/`：每週新聞摘要；來源、原文連結和日期隨文章列出
 
 計算器只在瀏覽器運算。所有投資數字都由使用者輸入，不預設或承諾投資回報。本站只提供一般教育資訊，不提供個人化投資建議。
@@ -15,6 +15,7 @@
 
 ```bash
 python3 scripts/build_guides.py
+python3 scripts/build_brokers.py
 python3 scripts/build_news.py
 python3 scripts/apply_publish_mode.py
 python3 scripts/check_site.py
