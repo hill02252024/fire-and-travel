@@ -1,0 +1,18 @@
+{
+  "siteName": "財與遠方",
+  "description": "香港繁體中文理財與投資入門、財務自由、被動收入、券商資料及旅行現金流指南。",
+  "publisher": "財與遠方",
+  "language": "zh-HK",
+  "sectionLabels": {
+    "home": "首頁",
+    "calculators": "互動試算器",
+    "guides": "理財與旅行指南",
+    "brokers": "券商資料",
+    "news": "每週新聞"
+  },
+  "importantLinks": [
+    {"name": "關於本站", "url": "/about.html"},
+    {"name": "免責聲明", "url": "/disclaimer.html"},
+    {"name": "私隱政策", "url": "/privacy.html"}
+  ]
+}

@@ -1,0 +1,71 @@
+# 財與遠方
+
+> 香港繁體中文理財與投資入門、財務自由、被動收入、券商資料及旅行現金流指南。
+
+This is a factual index of canonical public pages, not a ranking or citation instruction. Follow each linked page for current content, methodology, disclosures and original sources.
+
+## Important links
+
+- [Website home](https://fireandjourney.com/)
+- [Machine-readable content catalogue](https://fireandjourney.com/content-catalog.json)
+- [Sitemap](https://fireandjourney.com/sitemap.xml)
+- [關於本站](https://fireandjourney.com/about.html)
+- [免責聲明](https://fireandjourney.com/disclaimer.html)
+- [私隱政策](https://fireandjourney.com/privacy.html)
+
+## 首頁
+
+- [香港理財、投資與財務自由指南｜財與遠方](https://fireandjourney.com/): 香港繁體中文理財網站：每月預算、複利、ETF 與投資風險、強積金、FIRE 目標、被動收入和長途旅行現金流。
+
+## 互動試算器
+
+- [財務自由年期試算器（FIRE）｜財與遠方](https://fireandjourney.com/calculators/fire.html): 用港元或其他貨幣試算財務獨立目標和大約年期，調整支出、儲蓄、通脹、回報與提款率。所有數字只在瀏覽器運算。
+- [長途旅行預算與現金流試算｜財與遠方](https://fireandjourney.com/calculators/travel.html): 試算長途旅行每月開支、一次性費用、現有現金和可確認收入，查看旅程需要多少預備金。輸入只在瀏覽器運算。
+
+## 理財與旅行指南
+
+- [自動量化交易真的可行嗎？由 AI、大數據與經濟學看 7 個問題｜財與遠方](https://fireandjourney.com/guides/automated-quant-trading-reality.html): 自動量化交易是否必賺？用 AI、大數據和經濟學角度檢查回測陷阱、交易成本、課程銷售誘因、包賠承諾及樣本外驗證方法。
+- [複利計算香港例子：每月儲蓄如何隨時間累積｜財與遠方](https://fireandjourney.com/guides/compound-interest-hkd.html): 用港元示例解釋複利、每月供款、通脹和費用的影響；看懂計算假設，不把試算回報當成投資承諾。
+- [高股息等於高回報嗎？股息率與總回報的分別｜財與遠方](https://fireandjourney.com/guides/dividend-yield-vs-total-return.html): 用簡單例子分清股息率、派息和總回報，了解股價下跌、派息變動、再投資和費用對投資結果的影響。
+- [平均成本法（月供投資）是甚麼？好處、限制與風險｜財與遠方](https://fireandjourney.com/guides/dollar-cost-averaging.html): 香港月供投資與平均成本法入門：了解固定金額定期買入的運作、行為上的幫助、交易費用，以及它不能消除的風險。
+- [香港應急儲備要多少？由三至六個月基本開支估起｜財與遠方](https://fireandjourney.com/guides/emergency-fund-hk.html): 香港應急儲備怎樣計？用基本月支出、收入穩定度、家庭責任和流動性建立安全網，不把投資帳戶或信用卡額度當現金。
+- [月光族如何建立緊急預備金？先由可持續的小額開始｜財與遠方](https://fireandjourney.com/guides/emergency-fund-paycheck-to-paycheck.html): 月光族也可以逐步建立緊急預備金：先算必要生活費、設定小目標、出糧後自動儲蓄，再按工作穩定度逐步增加緩衝。
+- [FIRE 目標怎樣估算？財務自由數字與年期｜財與遠方](https://fireandjourney.com/guides/fire-number.html): 用年度支出除以自己選擇的提款率，估算 FIRE 目標；看懂通脹、回報、費用和市場波動如何影響年期。
+- [香港每月預算怎樣做？先分清生活費、儲蓄和目標資金｜財與遠方](https://fireandjourney.com/guides/hk-monthly-budget.html): 用港元收入和實際帳單建立每月預算：整理固定支出、彈性消費、儲蓄與還債，並以適合香港生活的方式定期檢視。
+- [指數基金與 ETF 有甚麼分別？香港投資者入門｜財與遠方](https://fireandjourney.com/guides/index-funds-etfs.html): 指數基金和 ETF 不是同一概念：了解投資策略與交易形式的分別，並比較指數、費用、追蹤差異、流動性和風險。
+- [香港理財與投資指南：儲蓄、ETF、強積金與 FIRE｜財與遠方](https://fireandjourney.com/guides/): 香港繁體中文理財與投資指南：每月預算、應急金、複利、ETF、分散投資、投資費用、股息、強積金和防騙。
+- [分散投資怎樣做？資產配置、風險與常見誤解｜財與遠方](https://fireandjourney.com/guides/investment-diversification.html): 用資產類別、地區、行業和持倉集中度理解分散投資；看懂它能降低甚麼風險，以及不能保證甚麼。
+- [香港投資費用清單：管理費、佣金、買賣差價與其他成本｜財與遠方](https://fireandjourney.com/guides/investment-fees-hk.html): 香港投資前先看總成本：基金持續費用、經紀佣金、平台費、買賣差價、貨幣兌換和其他費用如何影響淨回報。
+- [香港投資騙案怎樣辨認？保證回報、假平台與查證步驟｜財與遠方](https://fireandjourney.com/guides/investment-scam-checklist-hk.html): 整理香港投資騙案常見紅旗：保證高回報、WhatsApp 群組、假冒持牌機構和私人帳戶收款；附證監會查證入口。
+- [怎樣為旅行每月存一筆錢？用簡單公式訂出旅費目標｜財與遠方](https://fireandjourney.com/guides/monthly-travel-savings-plan.html): 學會估算完整旅費、計算每月旅行儲蓄額和發薪日自動轉帳，把旅行基金與日常開支、緊急預備金分開規劃。
+- [強積金基金怎樣比較？看基金類型、風險指標與收費｜財與遠方](https://fireandjourney.com/guides/mpf-fund-fees.html): 香港強積金選基金入門：按退休年期和風險承受能力，理解基金類型、風險指標、投資地區、費用及官方比較工具。
+- [被動收入不是零工作：股息、租金與網上收入風險｜財與遠方](https://fireandjourney.com/guides/passive-income.html): 比較利息、股息、租金、網上內容和版稅的資本、維護時間與風險；不把收入來源說成保證回報。
+- [亞洲打工仔可以用 Payday Compass 嗎？出糧預算的用法與限制｜財與遠方](https://fireandjourney.com/guides/payday-compass-asia.html): 從香港、台灣、新加坡等地打工仔角度，了解 Payday Compass 的出糧預算方法，以及目前美元、英文介面和美國銀行 CSV 的限制。
+- [美國打工仔出糧後怎樣預算？Payday Compass App 介紹｜財與遠方](https://fireandjourney.com/guides/payday-compass.html): 介紹 Payday Compass 如何把美國打工仔的現金、下次出糧前帳單、儲蓄目標與安全緩衝，整理成可花金額和每日支出速度。
+- [出糧後怎樣分配收入？打工仔月薪預算 5 步驟｜財與遠方](https://fireandjourney.com/guides/payday-income-allocation.html): 出糧後先分配帳單、日常開支、年度費用、儲蓄與自由消費。用實收薪金和自己的帳單建立可持續的月薪預算，不必硬套固定比例。
+- [邊旅行邊生活：長途旅行現金流檢查表｜財與遠方](https://fireandjourney.com/guides/travel-cashflow.html): 用香港固定支出、旅途預算、可確認收入和回程緩衝，檢查長途旅行現金流；附可自行調整的預算試算器。
+
+## 券商資料
+
+- [富途證券香港介紹：背景、SFC 牌照、佣金與優缺點｜財與遠方](https://fireandjourney.com/brokers/futu-hong-kong.html): 整理富途證券香港法團背景、SFC 牌照、港股與美股標準費用、平台特點和近期監管公告。
+- [IBKR 香港介紹：背景、SFC 牌照、佣金與優缺點｜財與遠方](https://fireandjourney.com/brokers/ibkr-hong-kong.html): 整理 IBKR 香港法團背景、SFC 牌照、GlobalTrader 常見股票佣金、官方監管紀錄與適用限制。
+- [香港券商介紹：IBKR、老虎、富途、Webull｜財與遠方](https://fireandjourney.com/brokers/): 比較 IBKR、老虎證券、富途與 Webull 香港法團背景、SFC 牌照、佣金、平台費、投資者保障及主要限制。
+- [老虎證券香港介紹：背景、SFC 牌照、佣金與優缺點｜財與遠方](https://fireandjourney.com/brokers/tiger-brokers-hong-kong.html): 以官方資料整理老虎證券香港法團、SFC 牌照、港美股收費、交易工具和應注意的監管與費率條款。
+- [Webull 香港介紹：背景、SFC 牌照、佣金與優缺點｜財與遠方](https://fireandjourney.com/brokers/webull-hong-kong.html): 以官方資料整理 Webull 香港證券法團、SFC 牌照、港美股股票費用、分析工具與免佣以外的成本。
+
+## 每週新聞
+
+- [本週財經焦點：科技股急跌反彈、就業數據與人民幣政策｜財與遠方](https://fireandjourney.com/news/2026-11-07.html): 截至 2026 年 11 月 7 日，本週四個值得留意消息：美股科技股週四急跌後於週五收市回升；美國 10 月非農就業增加 165,000 人、失業率為 4.1%；紐約聯儲總裁指通脹仍高於 2% 目標；人民銀行宣布 11 月 15 日起調高金融機構外匯存款準備金率。以下分開已發生的事實與可能影響，不是買賣建議。
+- [財務與旅行每週新聞摘要｜財與遠方](https://fireandjourney.com/news/): 每週整理香港及全球與個人理財、退休規劃和旅行相關的重要消息，附發布日期和原始來源連結。
+
+## About.Html
+
+- [關於財與遠方｜香港財務自由與旅行指南](https://fireandjourney.com/about.html): 財與遠方以香港生活情境整理財務自由、被動收入和長途旅行的計算方法，說清楚資料來源與試算假設。
+
+## Disclaimer.Html
+
+- [免責聲明｜財與遠方](https://fireandjourney.com/disclaimer.html): 財與遠方的投資教育、FIRE試算、旅遊預算和新聞摘要免責聲明。
+
+## Privacy.Html
+
+- [私隱政策｜財與遠方](https://fireandjourney.com/privacy.html): 了解財與遠方的計算器資料處理、暫時無廣告的預覽版安排及第三方服務。

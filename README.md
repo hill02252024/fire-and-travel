@@ -34,3 +34,16 @@ node --test scripts/calculators.test.mjs
 正式網站網域為 `https://fireandjourney.com/`；GitHub Pages 專案根目錄已用此網域作為 canonical，頁面可索引，並提供 `robots.txt` 和 `sitemap.xml`。GoDaddy DNS 尚待更新與傳播，Search Console 的網域驗證和 sitemap 提交也待 DNS 完成。
 
 既有預覽 `https://todays-tasks.com/fire-and-travel/` 保留為 noindex 副本，不進入 Today’s Tasks 根站 sitemap；此副本不再是理財網站的正式 SEO 網址。網域與索引設定由 `data/site.json` 管理。
+
+## AI search／answer-engine discovery
+
+`scripts/build_ai_discovery.py` 以正式 sitemap 為準，產生 `content-catalog.json` 與
+`llms.txt`；品牌、分區及重要連結在 `scripts/ai_discovery.json`。更新正式內容後執行：
+
+```bash
+python3 scripts/build_ai_discovery.py
+python3 scripts/build_ai_discovery.py --check
+```
+
+`robots.txt` 明確允許常見搜尋及 AI answer crawler。這些檔案是公開內容索引，
+不保證搜尋排名或 AI 引用；部署後可連同正式 sitemap URL 提交 IndexNow。
