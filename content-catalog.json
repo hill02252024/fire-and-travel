@@ -5,7 +5,7 @@
   "publisher": "財與遠方",
   "origin": "https://fireandjourney.com",
   "catalogueUrl": "https://fireandjourney.com/content-catalog.json",
-  "pageCount": 33,
+  "pageCount": 34,
   "note": "Canonical public pages from the published sitemap. Read each page for current details and sources.",
   "pages": [
     {
@@ -173,6 +173,13 @@
       "url": "https://fireandjourney.com/guides/mpf-fund-fees.html",
       "title": "強積金基金怎樣比較？看基金類型、風險指標與收費｜財與遠方",
       "description": "香港強積金選基金入門：按退休年期和風險承受能力，理解基金類型、風險指標、投資地區、費用及官方比較工具。",
+      "language": "zh-HK",
+      "section": "guides"
+    },
+    {
+      "url": "https://fireandjourney.com/guides/nvidia-hbm-memory-supply-chain.html",
+      "title": "NVIDIA 沒有記憶體還能造 GPU 嗎？由 HBM 到自研晶片｜財與遠方",
+      "description": "GPU 一定要記憶體嗎？拆解 SRAM、HBM、GDDR、AI 模型記憶體需求、NVIDIA 無晶圓廠模式、三大 HBM 供應商，以及 vivo 自研影像晶片為何能在手機端處理照片。",
       "language": "zh-HK",
       "section": "guides"
     },

@@ -39,6 +39,7 @@ This is a factual index of canonical public pages, not a ranking or citation ins
 - [香港投資騙案怎樣辨認？保證回報、假平台與查證步驟｜財與遠方](https://fireandjourney.com/guides/investment-scam-checklist-hk.html): 整理香港投資騙案常見紅旗：保證高回報、WhatsApp 群組、假冒持牌機構和私人帳戶收款；附證監會查證入口。
 - [怎樣為旅行每月存一筆錢？用簡單公式訂出旅費目標｜財與遠方](https://fireandjourney.com/guides/monthly-travel-savings-plan.html): 學會估算完整旅費、計算每月旅行儲蓄額和發薪日自動轉帳，把旅行基金與日常開支、緊急預備金分開規劃。
 - [強積金基金怎樣比較？看基金類型、風險指標與收費｜財與遠方](https://fireandjourney.com/guides/mpf-fund-fees.html): 香港強積金選基金入門：按退休年期和風險承受能力，理解基金類型、風險指標、投資地區、費用及官方比較工具。
+- [NVIDIA 沒有記憶體還能造 GPU 嗎？由 HBM 到自研晶片｜財與遠方](https://fireandjourney.com/guides/nvidia-hbm-memory-supply-chain.html): GPU 一定要記憶體嗎？拆解 SRAM、HBM、GDDR、AI 模型記憶體需求、NVIDIA 無晶圓廠模式、三大 HBM 供應商，以及 vivo 自研影像晶片為何能在手機端處理照片。
 - [被動收入不是零工作：股息、租金與網上收入風險｜財與遠方](https://fireandjourney.com/guides/passive-income.html): 比較利息、股息、租金、網上內容和版稅的資本、維護時間與風險；不把收入來源說成保證回報。
 - [亞洲打工仔可以用 Payday Compass 嗎？出糧預算的用法與限制｜財與遠方](https://fireandjourney.com/guides/payday-compass-asia.html): 從香港、台灣、新加坡等地打工仔角度，了解 Payday Compass 的出糧預算方法，以及目前美元、英文介面和美國銀行 CSV 的限制。
 - [美國打工仔出糧後怎樣預算？Payday Compass App 介紹｜財與遠方](https://fireandjourney.com/guides/payday-compass.html): 介紹 Payday Compass 如何把美國打工仔的現金、下次出糧前帳單、儲蓄目標與安全緩衝，整理成可花金額和每日支出速度。
